@@ -31,44 +31,36 @@ function Lighting() {
 function useFruitSpawner(viewport, textures, slicedTextures, isMobile) {
   const [fruits, setFruits] = useState([]);
 
-  const getRandomNumber = (min, max) =>
-    Math.floor(Math.random() * (max - min + 1)) + min;
+  useEffect(() => {
+    const getRandomNumber = (min, max) =>
+      Math.floor(Math.random() * (max - min + 1)) + min;
 
-  const spawnFruitInterval = (interval = 1.5) => {
-    const intervalTimer = setInterval(() => {
+    const spawnInterval = setInterval(() => {
       const width = viewport.width / 2 - 1;
 
       setFruits((prevFruits) => {
-        const newFruits = Array.from(
-          { length: getRandomNumber(1, 6) },
-          (_, i) => {
-            const randomX = getRandomNumber(width * -1, width);
-            const randomImage = getRandomNumber(0, textures.length - 1);
+        const newFruits = Array.from({ length: getRandomNumber(1, 6) }, (_, i) => {
+          const randomX = getRandomNumber(width * -1, width);
+          const randomImage = getRandomNumber(0, textures.length - 1);
 
-            return (
-              <Sticker
-                key={`${Date.now()}-${i}`}
-                positionX={randomX}
-                image={textures[randomImage]}
-                imageSliced={slicedTextures[randomImage]}
-              />
-            );
-          },
-        );
+          return (
+            <Sticker
+              key={`${Date.now()}-${i}`}
+              positionX={randomX}
+              image={textures[randomImage]}
+              imageSliced={slicedTextures[randomImage]}
+            />
+          );
+        });
 
         return [...prevFruits, ...newFruits];
       });
-    }, interval * 1000);
+    }, (isMobile ? 5 : 3) * 1000);
 
-    return intervalTimer;
-  };
-
-  useEffect(() => {
-    const spawnInterval = spawnFruitInterval(isMobile ? 5 : 3);
     return () => {
       clearInterval(spawnInterval);
     };
-  }, [isMobile]);
+  }, [isMobile, slicedTextures, textures, viewport.width]);
 
   return fruits;
 }

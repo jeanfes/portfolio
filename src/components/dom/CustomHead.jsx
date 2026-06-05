@@ -93,11 +93,7 @@ function CustomHead({ title = '', description, keywords }) {
         <meta name="theme-color" content="#f0f4f1" />
 
         {/* Schema */}
-        {/* eslint-disable-next-line react/no-danger */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(getSchema()) }}
-        />
+        <script type="application/ld+json">{JSON.stringify(getSchema())}</script>
       </NextHead>
       <NextSeo title={title} description={description} />
     </>

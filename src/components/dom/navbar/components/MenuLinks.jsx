@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 
 import Link from 'next/link';
 import clsx from 'clsx';
@@ -29,7 +29,7 @@ function MenuLinks() {
   const menuLinksItemsRef = useRef([]);
   const router = useRouter();
 
-  const setupMenuAnimation = (gsapTimeline, refs) => {
+  const setupMenuAnimation = useCallback((gsapTimeline, refs) => {
     const fluidCanvas = document?.getElementById('fluidCanvas');
     const layout = document?.getElementById('layout');
     const scrollbar = document?.getElementById('scrollbar');
@@ -74,13 +74,13 @@ function MenuLinks() {
         },
         0,
       );
-  };
+  }, [isMobile]);
 
   useEffect(() => {
     const tl = timeline.current;
     const refs = { menuRef, menuLinksItemsRef };
     const ctx = gsap.context(() => {
-      setupMenuAnimation(tl, refs, isMobile);
+      setupMenuAnimation(tl, refs);
     });
 
     return () => {
@@ -89,7 +89,7 @@ function MenuLinks() {
       }
       ctx.kill();
     };
-  }, [isLoading, isMobile]);
+  }, [isLoading, setupMenuAnimation]);
 
   useEffect(() => {
     const tl = timeline.current;
