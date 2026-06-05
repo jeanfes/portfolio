@@ -1,8 +1,5 @@
 import React, { useCallback, useMemo, useRef, useState } from 'react';
-import {
-  Transition as ReactTransition,
-  SwitchTransition,
-} from 'react-transition-group';
+import { Transition as ReactTransition, SwitchTransition } from 'react-transition-group';
 
 import Footer from '@src/components/dom/Footer';
 import PreFooter from '@src/components/dom/PreFooter';
@@ -12,17 +9,9 @@ import { useShallow } from 'zustand/react/shallow';
 import { useStore } from '@src/store';
 
 function Layout({ children, layoutRef, mainRef, router }) {
-  const [lenis, introOut, setIsLoading, isMenuOpen, setIsMenuOpen, setIsAbout] =
-    useStore(
-      useShallow((state) => [
-        state.lenis,
-        state.introOut,
-        state.setIsLoading,
-        state.isMenuOpen,
-        state.setIsMenuOpen,
-        state.setIsAbout,
-      ]),
-    );
+  const [lenis, introOut, setIsLoading, isMenuOpen, setIsMenuOpen, setIsAbout] = useStore(
+    useShallow((state) => [state.lenis, state.introOut, state.setIsLoading, state.isMenuOpen, state.setIsMenuOpen, state.setIsAbout]),
+  );
 
   const enterTimelineRef = useRef();
   const exitTimelineRef = useRef();

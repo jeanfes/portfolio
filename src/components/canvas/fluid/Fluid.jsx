@@ -12,18 +12,7 @@ import usePointerEvents from '@src/components/canvas/fluid/hooks/usePointerEvent
 
 function Fluid({ mainRef, fluidColor }) {
   const OPTS = useOpts();
-  const {
-    force,
-    radius,
-    curl,
-    swirl,
-    intensity,
-    backgroundColor,
-    showBackground,
-    pressure,
-    densityDissipation,
-    velocityDissipation,
-  } = OPTS;
+  const { force, radius, curl, swirl, intensity, backgroundColor, showBackground, pressure, densityDissipation, velocityDissipation } = OPTS;
   const size = useThree((three) => three.size);
   const gl = useThree((three) => three.gl);
 
@@ -119,9 +108,7 @@ function Fluid({ mainRef, fluidColor }) {
 
     shaderUpdates.forEach(({ material, uniforms, target }) => {
       setShaderMaterial(material);
-      Object.entries(uniforms).forEach(([key, value]) =>
-        setUniforms(material, key, value),
-      );
+      Object.entries(uniforms).forEach(([key, value]) => setUniforms(material, key, value));
       setRenderTarget(target);
     });
 

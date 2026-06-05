@@ -25,14 +25,8 @@ function Clients() {
             .timeline({
               scrollTrigger: {
                 trigger: rootRef.current,
-                start:
-                  index === 0
-                    ? `top-=${vw(35)}`
-                    : `top+=${vw(35 + 5.5555556 * index)}`,
-                end:
-                  index === 0
-                    ? `bottom-=${vw(35 + 5.5555556 * index)}`
-                    : `bottom+=${vw(25)}`,
+                start: index === 0 ? `top-=${vw(35)}` : `top+=${vw(35 + 5.5555556 * index)}`,
+                end: index === 0 ? `bottom-=${vw(35 + 5.5555556 * index)}` : `bottom+=${vw(25)}`,
                 toggleActions: 'play none reverse none',
                 scrub: true,
                 scroller: document?.querySelector('main'),
@@ -80,24 +74,12 @@ function Clients() {
             <h4 className={clsx('h4', 'bold')}>Dinamicapps S.A.S</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">
-              Desarrollador Frontend Ssr. Lideré el desarrollo e
-            </div>
-            <div className="p-l">
-              implementación de chatbots conversacionales interactivos
-            </div>
-            <div className="p-l">
-              e integración de WebSockets para mensajería en tiempo real.
-            </div>
-            <div className="p-l">
-              Optimicé el rendimiento general del frontend con code splitting
-            </div>
-            <div className="p-l">
-              y lazy loading en React, TypeScript y Zustand, garantizando
-            </div>
-            <div className="p-l">
-              interfaces responsivas, limpias y altamente UX-friendly.
-            </div>
+            <div className="p-l">Desarrollador Frontend Ssr. Lideré el desarrollo e</div>
+            <div className="p-l">implementación de chatbots conversacionales interactivos</div>
+            <div className="p-l">e integración de WebSockets para mensajería en tiempo real.</div>
+            <div className="p-l">Optimicé el rendimiento general del frontend con code splitting</div>
+            <div className="p-l">y lazy loading en React, TypeScript y Zustand, garantizando</div>
+            <div className="p-l">interfaces responsivas, limpias y altamente UX-friendly.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -114,29 +96,15 @@ function Clients() {
               <h6 className="h6">2025</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>
-                Dinamicapps S.A.S
-              </h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Dinamicapps S.A.S</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">
-                Desarrollador Frontend Ssr. Lideré el desarrollo e
-              </div>
-              <div className="p-l">
-                implementación de chatbots conversacionales interactivos
-              </div>
-              <div className="p-l">
-                e integración de WebSockets para mensajería en tiempo real.
-              </div>
-              <div className="p-l">
-                Optimicé el rendimiento general del frontend con code splitting
-              </div>
-              <div className="p-l">
-                y lazy loading en React, TypeScript y Zustand, garantizando
-              </div>
-              <div className="p-l">
-                interfaces responsivas, limpias y altamente UX-friendly.
-              </div>
+              <div className="p-l">Desarrollador Frontend Ssr. Lideré el desarrollo e</div>
+              <div className="p-l">implementación de chatbots conversacionales interactivos</div>
+              <div className="p-l">e integración de WebSockets para mensajería en tiempo real.</div>
+              <div className="p-l">Optimicé el rendimiento general del frontend con code splitting</div>
+              <div className="p-l">y lazy loading en React, TypeScript y Zustand, garantizando</div>
+              <div className="p-l">interfaces responsivas, limpias y altamente UX-friendly.</div>
             </AppearTitle>
           </div>
         </>
@@ -163,21 +131,11 @@ function Clients() {
             <h4 className={clsx('h4', 'bold')}>Soluciones Americana</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">
-              Desarrollador Frontend Jr. Diseñé la arquitectura
-            </div>
-            <div className="p-l">
-              de componentes reutilizables (Atomic Design) con React,
-            </div>
-            <div className="p-l">
-              TypeScript, Redux y Material-UI. Llevé a cabo auditorías
-            </div>
-            <div className="p-l">
-              de rendimiento con Lighthouse y documenté el catálogo de
-            </div>
-            <div className="p-l">
-              componentes interactivos mediante Storybook para el equipo.
-            </div>
+            <div className="p-l">Desarrollador Frontend Jr. Diseñé la arquitectura</div>
+            <div className="p-l">de componentes reutilizables (Atomic Design) con React,</div>
+            <div className="p-l">TypeScript, Redux y Material-UI. Llevé a cabo auditorías</div>
+            <div className="p-l">de rendimiento con Lighthouse y documenté el catálogo de</div>
+            <div className="p-l">componentes interactivos mediante Storybook para el equipo.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -193,26 +151,14 @@ function Clients() {
               <h6 className="h6">2023 - 2025</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>
-                Soluciones Americana S.A.S
-              </h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Soluciones Americana S.A.S</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">
-                Desarrollador Frontend Jr. Diseñé la arquitectura
-              </div>
-              <div className="p-l">
-                de componentes reutilizables (Atomic Design) con React,
-              </div>
-              <div className="p-l">
-                TypeScript, Redux y Material-UI. Llevé a cabo auditorías
-              </div>
-              <div className="p-l">
-                de rendimiento con Lighthouse y documenté el catálogo de
-              </div>
-              <div className="p-l">
-                componentes interactivos mediante Storybook para el equipo.
-              </div>
+              <div className="p-l">Desarrollador Frontend Jr. Diseñé la arquitectura</div>
+              <div className="p-l">de componentes reutilizables (Atomic Design) con React,</div>
+              <div className="p-l">TypeScript, Redux y Material-UI. Llevé a cabo auditorías</div>
+              <div className="p-l">de rendimiento con Lighthouse y documenté el catálogo de</div>
+              <div className="p-l">componentes interactivos mediante Storybook para el equipo.</div>
             </AppearTitle>
           </div>
           <div className={styles.fourthEmpty} />
@@ -239,21 +185,11 @@ function Clients() {
             <h4 className={clsx('h4', 'bold')}>Universidad Simón Bolívar</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">
-              Estudios profesionales en Ingeniería de Sistemas
-            </div>
-            <div className="p-l">
-              en Barranquilla, Colombia. Paralelamente, desarrollé
-            </div>
-            <div className="p-l">
-              múltiples proyectos nativos de Android con Kotlin (como
-            </div>
-            <div className="p-l">
-              LiveNotes y Vibes) y aplicaciones móviles híbridas utilizando
-            </div>
-            <div className="p-l">
-              React Native, consolidando mis bases de desarrollo.
-            </div>
+            <div className="p-l">Estudios profesionales en Ingeniería de Sistemas</div>
+            <div className="p-l">en Barranquilla, Colombia. Paralelamente, desarrollé</div>
+            <div className="p-l">múltiples proyectos nativos de Android con Kotlin (como</div>
+            <div className="p-l">LiveNotes y Vibes) y aplicaciones móviles híbridas utilizando</div>
+            <div className="p-l">React Native, consolidando mis bases de desarrollo.</div>
           </AppearTitle>
         </div>
       ) : null}
@@ -270,26 +206,14 @@ function Clients() {
               <h6 className="h6">2020 - 2023</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>
-                Universidad Simón Bolívar
-              </h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Universidad Simón Bolívar</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">
-                Estudios profesionales en Ingeniería de Sistemas
-              </div>
-              <div className="p-l">
-                en Barranquilla, Colombia. Paralelamente, desarrollé
-              </div>
-              <div className="p-l">
-                múltiples proyectos nativos de Android con Kotlin (como
-              </div>
-              <div className="p-l">
-                LiveNotes y Vibes) y aplicaciones móviles híbridas utilizando
-              </div>
-              <div className="p-l">
-                React Native, consolidando mis bases de desarrollo.
-              </div>
+              <div className="p-l">Estudios profesionales en Ingeniería de Sistemas</div>
+              <div className="p-l">en Barranquilla, Colombia. Paralelamente, desarrollé</div>
+              <div className="p-l">múltiples proyectos nativos de Android con Kotlin (como</div>
+              <div className="p-l">LiveNotes y Vibes) y aplicaciones móviles híbridas utilizando</div>
+              <div className="p-l">React Native, consolidando mis bases de desarrollo.</div>
             </AppearTitle>
           </div>
         </>

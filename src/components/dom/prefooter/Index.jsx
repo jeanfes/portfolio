@@ -1,14 +1,10 @@
 import { Canvas } from '@react-three/fiber';
 import dynamic from 'next/dynamic';
 
-const FruitNinja = dynamic(
-  () => import('@src/components/dom/prefooter/FruitNinja'),
-  { ssr: false },
-);
+const FruitNinja = dynamic(() => import('@src/components/dom/prefooter/FruitNinja'), { ssr: false });
 
 function Index() {
-  const devicePixelRatio =
-    typeof window !== 'undefined' ? Math.min(1, window.devicePixelRatio) : 1;
+  const devicePixelRatio = typeof window !== 'undefined' ? Math.min(1, window.devicePixelRatio) : 1;
 
   return (
     <Canvas

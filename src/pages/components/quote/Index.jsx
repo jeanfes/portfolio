@@ -16,11 +16,8 @@ function Quote() {
       <h3 ref={textRef} className={clsx(styles.text, 'h3')}>
         {!isLoading && (
           <TextOpacity textRef={textRef.current} trigger={rootRef.current}>
-            Al iniciar un proyecto, la clave no es solo elegir herramientas
-            populares, sino seleccionar la arquitectura y tecnología precisas
-            que garanticen escalabilidad, rendimiento y una experiencia de
-            usuario impecable. Con mi experiencia, sé exactamente cómo guiar ese
-            proceso hacia el éxito.
+            Al iniciar un proyecto, la clave no es solo elegir herramientas populares, sino seleccionar la arquitectura y tecnología precisas que garanticen escalabilidad, rendimiento y una
+            experiencia de usuario impecable. Con mi experiencia, sé exactamente cómo guiar ese proceso hacia el éxito.
           </TextOpacity>
         )}
       </h3>

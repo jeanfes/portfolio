@@ -20,10 +20,7 @@ export default function Index() {
     >
       <PerspectiveCamera makeDefault position={[0, 0, 20]} fov={20} />
       <Physics interpolate timeStep={1 / 60} gravity={[0, 0, 0]}>
-        <FloatRigidBody
-          transparentCount={isMobile ? 3 : 5}
-          totalCount={isMobile ? 12 : 18}
-        />
+        <FloatRigidBody transparentCount={isMobile ? 3 : 5} totalCount={isMobile ? 12 : 18} />
       </Physics>
       <Environment files="/other/studio_small_09_1k.hdr" blur={1} />
     </View>

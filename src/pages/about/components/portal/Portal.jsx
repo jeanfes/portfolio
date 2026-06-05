@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
@@ -9,7 +9,7 @@ function Portal({ children, fadeIn, container }) {
   const [isVisible, setIsVisible] = useState(true);
   const fadeTimerRef = useRef(null);
 
-  const handleVisibility = () => {
+  const handleVisibility = useCallback(() => {
     if (fadeIn) {
       clearTimeout(fadeTimerRef.current);
       if (!isVisible) setIsVisible(true);
@@ -18,31 +18,25 @@ function Portal({ children, fadeIn, container }) {
         setIsVisible(false);
       }, FADE_OUT_DURATION);
     }
-  };
+  }, [fadeIn, isVisible]);
 
   useEffect(() => {
     handleVisibility();
 
     return () => clearTimeout(fadeTimerRef.current);
-  }, [fadeIn]);
+  }, [handleVisibility]);
 
   if (!isVisible) return null;
 
-  const portalContainer =
-    typeof window !== 'undefined' ? container || document.body : null;
+  const portalContainer = typeof window !== 'undefined' ? container || document.body : null;
 
-  return portalContainer
-    ? ReactDOM.createPortal(children, portalContainer)
-    : null;
+  return portalContainer ? ReactDOM.createPortal(children, portalContainer) : null;
 }
 
 Portal.propTypes = {
   children: PropTypes.node.isRequired,
   fadeIn: PropTypes.bool.isRequired,
-  container:
-    typeof window !== 'undefined'
-      ? PropTypes.instanceOf(Element)
-      : PropTypes.any,
+  container: typeof window !== 'undefined' ? PropTypes.instanceOf(Element) : PropTypes.any,
 };
 
 Portal.defaultProps = {

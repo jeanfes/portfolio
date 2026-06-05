@@ -55,20 +55,8 @@ function Background() {
       const materialUniforms = ref.current.material.uniforms;
       materialUniforms.uTime.value += delta * 0.001;
 
-      updateOffset(
-        materialUniforms.uOffsetX,
-        isOffsetXIncreasing,
-        OFFSET_STEP,
-        OFFSET_MIN,
-        OFFSET_MAX,
-      );
-      updateOffset(
-        materialUniforms.uOffsetY,
-        isOffsetYIncreasing,
-        OFFSET_STEP,
-        OFFSET_MIN,
-        OFFSET_MAX,
-      );
+      updateOffset(materialUniforms.uOffsetX, isOffsetXIncreasing, OFFSET_STEP, OFFSET_MIN, OFFSET_MAX);
+      updateOffset(materialUniforms.uOffsetY, isOffsetYIncreasing, OFFSET_STEP, OFFSET_MIN, OFFSET_MAX);
     }
   });
 

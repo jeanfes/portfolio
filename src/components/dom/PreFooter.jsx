@@ -12,9 +12,7 @@ function PreFooter() {
           <h2 className="h1"> juntos!</h2>
         </div>
         <div>
-          <h6 className="h6">
-            Comienza tu proyecto con un socio tecnológico de confianza hoy.
-          </h6>
+          <h6 className="h6">Comienza tu proyecto con un socio tecnológico de confianza hoy.</h6>
         </div>
       </div>
 

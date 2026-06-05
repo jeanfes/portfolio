@@ -7,8 +7,7 @@ import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
   title: 'Jean Escobar - Sobre mí',
-  description:
-    'Conoce más sobre mi trayectoria como Ingeniero de Sistemas, desarrollador frontend, valores y compromiso profesional.',
+  description: 'Conoce más sobre mi trayectoria como Ingeniero de Sistemas, desarrollador frontend, valores y compromiso profesional.',
   keywords: [
     'Jean Escobar sobre mí',
     'Acerca de Jean Escobar',

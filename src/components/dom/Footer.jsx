@@ -71,44 +71,25 @@ function Footer() {
   }, [isLoading, windowSize.height]);
 
   return (
-    <section
-      ref={footerRef}
-      className={clsx(styles.root, 'layout-grid-inner')}
-      role="contentinfo"
-    >
-      <div
-        style={{ gridColumn: isMobile ? '1 / 3' : '1 / 5' }}
-        className={styles.linksContainer}
-      >
+    <section ref={footerRef} className={clsx(styles.root, 'layout-grid-inner')} role="contentinfo">
+      <div style={{ gridColumn: isMobile ? '1 / 3' : '1 / 5' }} className={styles.linksContainer}>
         <AppearTitle isFooter>
           <h6 className={clsx(styles.title, 'h6')}>Mapa del sitio</h6>
           {menuLinks.slice(0, -1).map((link) => (
             <div key={link.title} className={styles.linkTextContainer}>
-              <LinkText
-                className={styles.linkText}
-                title={link.title}
-                href={link.href}
-              >
+              <LinkText className={styles.linkText} title={link.title} href={link.href}>
                 <span className="footer">{link.title}</span>
               </LinkText>
             </div>
           ))}
         </AppearTitle>
       </div>
-      <div
-        style={{ gridColumn: isMobile ? '3 / 7' : '5 / 9' }}
-        className={styles.linksContainer}
-      >
+      <div style={{ gridColumn: isMobile ? '3 / 7' : '5 / 9' }} className={styles.linksContainer}>
         <AppearTitle isFooter>
           <h6 className={clsx(styles.title, 'h6')}>Sígueme</h6>
           {footerLinks.map((link) => (
             <div key={link.title} className={styles.linkTextContainer}>
-              <LinkText
-                target
-                className={styles.linkText}
-                title={link.title}
-                href={link.href}
-              >
+              <LinkText target className={styles.linkText} title={link.title} href={link.href}>
                 <span className="footer">{link.title}</span>
               </LinkText>
             </div>
@@ -120,23 +101,11 @@ function Footer() {
           <h4 className={clsx(styles.workWithMe, 'h4')}>Trabaja Conmigo:</h4>
           <div>
             <div className={styles.link}>
-              <Link
-                aria-label="Send email"
-                scroll={false}
-                href="mailto:jeanescobar10@hotmail.com"
-              >
-                <h4 className={clsx(styles.email, 'h4')}>
-                  jeanescobar10@hotmail.com
-                </h4>
+              <Link aria-label="Send email" scroll={false} href="mailto:jeanescobar10@hotmail.com">
+                <h4 className={clsx(styles.email, 'h4')}>jeanescobar10@hotmail.com</h4>
               </Link>
               {/* class="link__graphic link__graphic--slide" */}
-              <svg
-                className={clsx(styles.linkGraphic)}
-                width="300%"
-                height="100%"
-                viewBox="0 0 1200 60"
-                preserveAspectRatio="none"
-              >
+              <svg className={clsx(styles.linkGraphic)} width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
                 <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0" />
               </svg>
             </div>
@@ -156,9 +125,7 @@ function Footer() {
       <div className={styles.middleContainer} style={{ gridColumn: '9 / 13' }}>
         <AppearTitle isFooter>
           <div className="p-x">Disponibilidad</div>
-          <div className={clsx('p-x', styles.middleText)}>
-            Disponible para nuevos proyectos y desafíos
-          </div>
+          <div className={clsx('p-x', styles.middleText)}>Disponible para nuevos proyectos y desafíos</div>
         </AppearTitle>
       </div>
       <div
@@ -170,9 +137,7 @@ function Footer() {
       >
         <AppearTitle isFooter>
           <div className="p-x">© 2026 · Jean Escobar</div>
-          <div className={clsx('p-x', styles.middleText)}>
-            Todos los derechos reservados
-          </div>
+          <div className={clsx('p-x', styles.middleText)}>Todos los derechos reservados</div>
         </AppearTitle>
       </div>
 

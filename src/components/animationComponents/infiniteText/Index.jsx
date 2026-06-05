@@ -36,14 +36,7 @@ function InfiniteText({ text, length, className, hasStroke = true }) {
   return (
     <div ref={containerRef} className={styles.root}>
       {Array.from({ length }, (_, index) => (
-        <div
-          key={`${index}-${text}`}
-          className={clsx(
-            styles.infiniteItem,
-            index % 2 === 0 && hasStroke && styles.stroke,
-            className,
-          )}
-        >
+        <div key={`${index}-${text}`} className={clsx(styles.infiniteItem, index % 2 === 0 && hasStroke && styles.stroke, className)}>
           <span>{text}</span>
         </div>
       ))}

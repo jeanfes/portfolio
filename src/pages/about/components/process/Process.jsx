@@ -14,12 +14,7 @@ function Process() {
       <Other setPortals={setPortals} />
       {portals.map((portal) => (
         <Portal fadeIn={portal.fadeIn} key={portal.title}>
-          <div
-            className={clsx(
-              styles.hoverTextContainer,
-              portal.fadeIn ? 'fade-in' : 'fade-out',
-            )}
-          >
+          <div className={clsx(styles.hoverTextContainer, portal.fadeIn ? 'fade-in' : 'fade-out')}>
             <div className={clsx('p-l', styles.hoverText)}>{portal.title}</div>
             <div className={clsx('p-l', styles.hoverText)}>{portal.desc}</div>
           </div>

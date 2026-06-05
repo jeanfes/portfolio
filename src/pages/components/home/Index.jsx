@@ -26,11 +26,9 @@ const moveRect = (rect, direction, gridWidth, gridHeight) => {
   moveMap[direction]?.();
 };
 
-const arePositionsEqual = (pos1, pos2) =>
-  pos1.x === pos2.x && pos1.y === pos2.y;
+const arePositionsEqual = (pos1, pos2) => pos1.x === pos2.x && pos1.y === pos2.y;
 
-const isPositionOccupied = (rects, pos) =>
-  rects.some((rect) => arePositionsEqual(rect, pos));
+const isPositionOccupied = (rects, pos) => rects.some((rect) => arePositionsEqual(rect, pos));
 
 const performMoves = (rectangles, gridWidth, gridHeight) => {
   const totalGroups = Math.floor(Math.random() * 8) + 1;
@@ -41,12 +39,7 @@ const performMoves = (rectangles, gridWidth, gridHeight) => {
     const togetherMoves = Math.floor(Math.random() * 3) + 1;
 
     for (let k = 0; k < togetherMoves; k += 1) {
-      const randomRectIndex =
-        k === 0 || validMoves.length === 0
-          ? Math.floor(Math.random() * rectangles.length)
-          : rectangles.findIndex(
-              (_, idx) => !validMoves.some((move) => move.index === idx),
-            );
+      const randomRectIndex = k === 0 || validMoves.length === 0 ? Math.floor(Math.random() * rectangles.length) : rectangles.findIndex((_, idx) => !validMoves.some((move) => move.index === idx));
 
       if (randomRectIndex === -1) break;
 
@@ -64,13 +57,7 @@ const performMoves = (rectangles, gridWidth, gridHeight) => {
           x: parseFloat(newPosition.x),
           y: parseFloat(newPosition.y),
         };
-        if (
-          x > -0.5 &&
-          x < 90 &&
-          y > -0.5 &&
-          y < 90 &&
-          !isPositionOccupied(rectangles, newPosition)
-        ) {
+        if (x > -0.5 && x < 90 && y > -0.5 && y < 90 && !isPositionOccupied(rectangles, newPosition)) {
           validMove = true;
           validMoves.push({
             index: newPosition.index,
@@ -136,11 +123,7 @@ function Home() {
     (movements) => {
       const tl = gsap.timeline({
         onComplete: () => {
-          const newMovements = performMoves(
-            initialPositions,
-            gridWidth,
-            gridHeight,
-          );
+          const newMovements = performMoves(initialPositions, gridWidth, gridHeight);
           setTimeline(animateRectangles(newMovements));
         },
       });
@@ -195,9 +178,7 @@ function Home() {
         timeline.kill();
       }
 
-      const newTimeline = animateRectangles(
-        performMoves(initialPositions, gridWidth, gridHeight),
-      );
+      const newTimeline = animateRectangles(performMoves(initialPositions, gridWidth, gridHeight));
       setTimeline(newTimeline);
     });
 
@@ -243,17 +224,7 @@ function Home() {
 
   const renderRects = useMemo(
     // eslint-disable-next-line no-return-assign
-    () =>
-      initialPositions.map(({ index, x, y }) => (
-        <rect
-          key={index}
-          ref={(ref) => (rectRefs.current[index] = ref)}
-          x={x}
-          y={y}
-          width={`${gridWidth}%`}
-          height={`${gridHeight}%`}
-        />
-      )),
+    () => initialPositions.map(({ index, x, y }) => <rect key={index} ref={(ref) => (rectRefs.current[index] = ref)} x={x} y={y} width={`${gridWidth}%`} height={`${gridHeight}%`} />),
     [initialPositions, gridWidth, gridHeight],
   );
 
@@ -266,43 +237,19 @@ function Home() {
         </div>
         {!isMobile && (
           <h6 className={clsx('h6', styles.rightContainer)}>
-            Con más de 3 años de experiencia como Ingeniero de Sistemas y
-            Desarrollador Frontend, construyo aplicaciones web y móviles de alto
-            rendimiento, combinando lógica sólida con un diseño visual premium y
-            pulido.
+            Con más de 3 años de experiencia como Ingeniero de Sistemas y Desarrollador Frontend, construyo aplicaciones web y móviles de alto rendimiento, combinando lógica sólida con un diseño
+            visual premium y pulido.
           </h6>
         )}
       </div>
 
       <div className={styles.bottomContainer}>
         <FloatingMeshes />
-        <div
-          onMouseEnter={onMouseEnter}
-          onMouseLeave={onMouseLeave}
-          className={styles.svgWrapper}
-        >
-          <svg
-            ref={svgRef}
-            width="100%"
-            height="100%"
-            viewBox="0 0 100 100"
-            preserveAspectRatio="none"
-          >
-            <rect
-              x="0"
-              y="0"
-              className={styles.mask2}
-              width="100%"
-              height="100.3%"
-            />
+        <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={styles.svgWrapper}>
+          <svg ref={svgRef} width="100%" height="100%" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <rect x="0" y="0" className={styles.mask2} width="100%" height="100.3%" />
             <mask id="mask" x="0" y="0">
-              <rect
-                className={styles.mask1}
-                x="0"
-                y="0"
-                width="100%"
-                height="100.3%"
-              />
+              <rect className={styles.mask1} x="0" y="0" width="100%" height="100.3%" />
               {renderRects}
             </mask>
           </svg>
@@ -313,10 +260,8 @@ function Home() {
         <div className={styles.rightContainerMobile}>
           <h6 className="h6">
             {' '}
-            Con más de 3 años de experiencia como Ingeniero de Sistemas y
-            Desarrollador Frontend, construyo aplicaciones web y móviles de alto
-            rendimiento, combinando lógica sólida con un diseño visual premium y
-            pulido.
+            Con más de 3 años de experiencia como Ingeniero de Sistemas y Desarrollador Frontend, construyo aplicaciones web y móviles de alto rendimiento, combinando lógica sólida con un diseño
+            visual premium y pulido.
           </h6>
         </div>
       )}
