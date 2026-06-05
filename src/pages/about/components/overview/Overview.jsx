@@ -11,66 +11,95 @@ function Overview() {
       <div className={styles.title}>
         {isMobile ? (
           <AppearTitle key="mobile-queto">
-            <h3 className="h3">The front-end developer&apos;s role </h3>
+            <h3 className="h3">El rol de un desarrollador</h3>
             <h3 className="h3">
-              is like a kind host, <span className="medium">ensuring</span>
+              frontend es como el de un{' '}
+              <span className="medium">anfitrión</span>
             </h3>
             <h3 className="h3">
-              visitors have a <span className="medium">smooth</span> and
+              ideal: se asegura de que{' '}
+              <span className="medium">los visitantes</span> tengan
             </h3>
             <h3 className="h3">
-              <span className="medium">enjoyable</span> experience.
+              una experiencia <span className="medium">fluida</span> y
+              memorable.
             </h3>
           </AppearTitle>
         ) : (
           <AppearTitle key="desktop-queto">
-            <h3 className="h3">The front-end developer&apos;s role is like a</h3>
             <h3 className="h3">
-              kind host, <span className="medium">ensuring</span> visitors have
+              El rol de un desarrollador frontend es como el de un
             </h3>
             <h3 className="h3">
-              a <span className="medium">smooth</span> and <span className="medium">enjoyable</span> experience.
+              anfitrión ideal: se asegura de que{' '}
+              <span className="medium">los visitantes</span> tengan
+            </h3>
+            <h3 className="h3">
+              una experiencia <span className="medium">fluida</span>, intuitiva
+              y memorable.
             </h3>
           </AppearTitle>
         )}
       </div>
       <div className={clsx(styles.text, 'p-l', styles.myStory)}>
         <AppearTitle>
-          <span>Some words</span>
+          <span>Unas palabras</span>
         </AppearTitle>
       </div>
       <div className={styles.desc}>
         {!isMobile ? (
           <AppearTitle key="desktop-overview">
-            <h6 className="h6">Hey there! I&apos;m a 26-year-old front-end developer from Greece with a </h6>
-            <h6 className="h6">passion for crafting amazing digital experiences. I studied software</h6>
-            <h6 className="h6">engineering to deepen my understanding of how to build sleek and </h6>
-            <h6 className="h6">efficient websites and apps.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not busy coding, you&apos;ll often find me soaking up inspiration from</h6>
-            <h6 className="h6">the world of design. Whether it&apos;s exploring new color palettes or refining</h6>
-            <h6 className="h6">user interfaces, I love bringing creativity into my work.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not immersed in coding, I enjoy staying active. I love swimming, </h6>
-            <h6 className="h6">rowing, and playing intense PC games to relax and recharge.</h6>
-
-            <h6 className={clsx(styles.paddingTop, 'h6')}>I&apos;m looking forward to collaborating and creating something great!</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>Evangelos Giatsidis.</h6>
+            <h6 className="h6">
+              ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Frontend graduado
+              de la
+            </h6>
+            <h6 className="h6">
+              Universidad Simón Bolívar en Barranquilla, Colombia. Con 3 años de
+              experiencia
+            </h6>
+            <h6 className="h6">
+              profesional, me apasiona dar vida a ideas digitales robustas,
+              dinámicas y eficientes.
+            </h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>
+              Cuando no estoy programando, dedico mi tiempo libre a ver
+              películas de tecnología,
+            </h6>
+            <h6 className="h6">
+              disfrutar de una buena lasaña (mi comida favorita) y jugar
+              videojuegos como Wild Rift.
+            </h6>
+            <h6 className="h6">
+              Me considero un desarrollador proactivo, curioso, adaptable y en
+              constante crecimiento,
+            </h6>
+            <h6 className="h6">
+              actualmente mejorando mi nivel de inglés (nivel A2).
+            </h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>
+              ¡Estoy emocionado por colaborar y crear grandes soluciones juntos!
+            </h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>Jean Escobar.</h6>
           </AppearTitle>
         ) : (
           <AppearTitle key="mobile-overview">
-            <h6 className="h6">Hey there! I&apos;m a 26-year-old front-end developer from Greece </h6>
-            <h6 className="h6">with a passion for crafting amazing digital experiences. I studied </h6>
-            <h6 className="h6">software engineering to deepen my understanding of how to </h6>
-            <h6 className="h6">build sleek and efficient websites and apps.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not busy coding, you&apos;ll often find me soaking up </h6>
-            <h6 className="h6">inspiration from the world of design. Whether it&apos;s exploring new</h6>
-            <h6 className="h6">color palettes or refining user interfaces, I love bringing</h6>
-            <h6 className="h6">creativity into my work.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not immersed in coding, I enjoy staying active. I love</h6>
-            <h6 className="h6">swimming, rowing, and playing intense PC games to relax</h6>
-            <h6 className="h6">and recharge.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>I&apos;m looking forward to collaborating and creating something</h6>
-            <h6 className="h6">great!</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>Evangelos Giatsidis.</h6>
+            <h6 className="h6">
+              ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Frontend graduado
+              de la Universidad Simón Bolívar en Barranquilla, Colombia. Con 3
+              años de experiencia profesional, me apasiona dar vida a ideas
+              digitales robustas, dinámicas y eficientes.
+            </h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>
+              Cuando no estoy programando, dedico mi tiempo libre a ver
+              películas de tecnología, disfrutar de una buena lasaña (mi comida
+              favorita) y jugar videojuegos como Wild Rift. Me considero un
+              desarrollador proactivo, curioso, adaptable y en constante
+              crecimiento, actualmente mejorando mi nivel de inglés (nivel A2).
+            </h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>
+              ¡Estoy emocionado por colaborar y crear grandes soluciones juntos!
+            </h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>Jean Escobar.</h6>
           </AppearTitle>
         )}
       </div>

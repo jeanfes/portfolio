@@ -6,21 +6,16 @@ import Process from '@src/pages/about/components/process/Process';
 import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
-  title: 'Giats - About',
-  description: 'Learn about my journey, values, and commitment to quality web and app solutions.',
+  title: 'Jean Escobar - Sobre mí',
+  description:
+    'Conoce más sobre mi trayectoria como Ingeniero de Sistemas, desarrollador frontend, valores y compromiso profesional.',
   keywords: [
-    'Giats',
-    'About Evangelos Giatsidis',
-    'About me',
-    'Frontend Developer Journey',
-    'Web Developer Story',
-    'Professional Web Development',
-    'Frontend Development Expertise',
-    'Web Design Skills',
-    'Web Development Services',
-    'Web Design Expertise',
-    'Developer Profile',
-    'Quality Web Solutions',
+    'Jean Escobar sobre mí',
+    'Acerca de Jean Escobar',
+    'Trayectoria de desarrollador frontend',
+    'Ingeniero de Sistemas Colombia',
+    'Especialista en React',
+    'Desarrollo de Software profesional',
   ],
 };
 function Page() {

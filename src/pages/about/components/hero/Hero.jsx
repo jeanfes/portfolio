@@ -48,11 +48,21 @@ function Hero() {
   return (
     <section ref={rootRef} className={clsx(styles.root, 'layout-block-inner')}>
       <header className={styles.titleContainer}>
-        <h2 className={clsx(styles.title, 'h2')}>Creating pixel-perfect interfaces from design to deployment.</h2>
+        <h2 className={clsx(styles.title, 'h2')}>
+          Creando interfaces interactivas de alta fidelidad desde el diseño
+          hasta producción.
+        </h2>
       </header>
       <div className={styles.wrapper}>
         <div ref={heroImageRef} className={styles.imageContainer}>
-          <Image priority quality={100} src="/giats/back.webp" sizes="100%" fill alt="Evangelos Giatsidis Back" />
+          <Image
+            priority
+            quality={100}
+            src="/imagen2.png"
+            sizes="100%"
+            fill
+            alt="Jean Escobar Foto Secundaria"
+          />
         </div>
       </div>
     </section>

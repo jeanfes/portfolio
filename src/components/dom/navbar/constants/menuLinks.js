@@ -1,18 +1,18 @@
 const menuLinks = [
   {
-    title: 'Home',
+    title: 'Inicio',
     href: '/',
   },
   {
-    title: 'About me',
+    title: 'Sobre mí',
     href: '/about',
   },
   {
-    title: 'Projects',
+    title: 'Proyectos',
     href: '/projects',
   },
   {
-    title: 'Contact',
+    title: 'Contacto',
     href: undefined,
   },
 ];

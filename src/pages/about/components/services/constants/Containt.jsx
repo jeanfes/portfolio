@@ -2,80 +2,189 @@
 const containt = [
   {
     smallTitle: 'Software',
-    bigTitle: 'Software Engineering',
+    bigTitle: 'Ingeniería de Software',
     desc: [
-      <div className="p-l"> With a focus on innovation and efficiency, I build robust solutions that meet your</div>,
-      <div className="p-l"> business objectives. From frontend to backend, I leverage cutting-edge </div>,
-      <div className="p-l">technologies to deliver scalable and sustainable software.</div>,
+      <div className="p-l">
+        {' '}
+        Con un enfoque en la innovación y la eficiencia, desarrollo soluciones
+        robustas que
+      </div>,
+      <div className="p-l">
+        {' '}
+        cumplen con tus objetivos de negocio. Desde el frontend hasta el
+        backend, utilizo{' '}
+      </div>,
+      <div className="p-l">
+        tecnologías modernas para entregar software escalable y mantenible.
+      </div>,
     ],
     descMobile: [
-      <div className="p-l">With a focus on innovation and efficiency, I build robust solutions that</div>,
-      <div className="p-l">meet your business objectives. From frontend to backend, I leverage </div>,
-      <div className="p-l">cutting-edge technologies to deliver scalable and sustainable</div>,
-      <div className="p-l">software.</div>,
+      <div className="p-l">
+        Con un enfoque en la innovación y la eficiencia, desarrollo robustas
+      </div>,
+      <div className="p-l">
+        soluciones que cumplen tus objetivos. Desde el frontend hasta el
+      </div>,
+      <div className="p-l">
+        backend, utilizo tecnologías modernas para entregar software
+      </div>,
+      <div className="p-l">escalable y mantenible.</div>,
     ],
     options: [
-      { title: 'Web Development', desc: 'Create responsive and dynamic websites that deliver a seamless user experience' },
-      { title: 'Landing Page Development', desc: 'Design and develop high-converting landing pages tailored to your marketing goals' },
-      { title: '3D Website Creation', desc: 'Transform your digital presence with immersive 3D websites that captivate and engage users' },
-      { title: 'Desktop App Development', desc: 'Build cross-platform desktop applications for Windows, Mac and Linux' },
-      { title: 'Mobile App Development', desc: 'Build cross-platform mobile applications for iOS and Android' },
-      { title: 'E-commerce Solutions', desc: 'Develop custom e-commerce platforms tailored to your unique business needs' },
-      { title: 'CMS Development', desc: 'Implement flexible and easy-to-use content management systems for efficient website management' },
-      { title: 'Cloud Solutions', desc: 'Harness the power of the cloud to optimize performance, scalability, and reliability' },
-      { title: 'QA & Testing', desc: 'Secure the quality and reliability of your software through comprehensive testing and quality assurance' },
+      {
+        title: 'Desarrollo Web',
+        desc: 'Crear sitios web dinámicos y responsivos que ofrecen una experiencia de usuario fluida',
+      },
+      {
+        title: 'Desarrollo de Landing Pages',
+        desc: 'Diseñar y desarrollar páginas de destino de alta conversión adaptadas a tus objetivos de marketing',
+      },
+      {
+        title: 'Creación de Sitios Web 3D',
+        desc: 'Transformar tu presencia digital con sitios web 3D inmersivos que cautivan a los usuarios',
+      },
+      {
+        title: 'Desarrollo de Apps de Escritorio',
+        desc: 'Construir aplicaciones de escritorio multiplataforma para Windows, Mac y Linux',
+      },
+      {
+        title: 'Desarrollo de Apps Móviles',
+        desc: 'Construir aplicaciones móviles híbridas y nativas para iOS y Android con React Native o Kotlin',
+      },
+      {
+        title: 'Soluciones de Comercio Electrónico',
+        desc: 'Desarrollar plataformas de e-commerce a medida adaptadas a las necesidades de tu negocio',
+      },
+      {
+        title: 'Desarrollo de CMS',
+        desc: 'Implementar sistemas de gestión de contenido flexibles y fáciles de usar para la gestión del sitio',
+      },
+      {
+        title: 'Soluciones Cloud',
+        desc: 'Aprovechar la nube para optimizar el rendimiento, la escalabilidad y la fiabilidad',
+      },
+      {
+        title: 'QA y Testing',
+        desc: 'Garantizar la calidad y fiabilidad de tu software mediante pruebas exhaustivas y control de calidad',
+      },
     ],
   },
   {
     smallTitle: 'SEO',
-    bigTitle: 'SEO Optimization & Strategy',
+    bigTitle: 'Estrategia y Optimización SEO',
     desc: [
-      <div className="p-l">I use advanced methods to make your website more visible online, attract more</div>,
-      <div className="p-l">visitors naturally, and rank higher in search engines. From improving your website&apos;s</div>,
-      <div className="p-l">content to building quality links, I make sure your site performs its best.</div>,
+      <div className="p-l">
+        Utilizo métodos avanzados para aumentar la visibilidad en línea de tu
+        sitio web, atraer
+      </div>,
+      <div className="p-l">
+        visitantes de forma orgánica y lograr mejores posiciones en los motores
+        de búsqueda. Desde
+      </div>,
+      <div className="p-l">
+        mejorar el contenido hasta la estructura técnica, aseguro el mejor
+        rendimiento.
+      </div>,
     ],
     descMobile: [
-      <div className="p-l">I use advanced methods to make your website more visible online,</div>,
-      <div className="p-l">attract more visitors naturally, and rank higher in search engines.</div>,
-      <div className="p-l">From improving your website&apos;s content to building quality links, I make</div>,
-      <div className="p-l">sure your site performs its best.</div>,
+      <div className="p-l">
+        Utilizo métodos avanzados para aumentar la visibilidad en línea de
+      </div>,
+      <div className="p-l">
+        tu sitio web, atraer visitantes orgánicos y lograr mejores posiciones
+      </div>,
+      <div className="p-l">
+        en los motores de búsqueda. Optimizo tu sitio de forma integral.
+      </div>,
     ],
     options: [
-      { title: 'Keyword Research', desc: 'Identify high-traffic, relevant keywords to target for optimal search performance' },
-      { title: 'On-Page SEO', desc: 'Optimize your website content and structure to improve search engine indexing and ranking' },
-      { title: 'Off-Page SEO', desc: 'Enhance your website’s authority through strategic link building and social media engagement' },
-      { title: 'Technical SEO', desc: 'Ensure your website meets all technical requirements for search engine crawlers and indexing' },
-      { title: 'Local SEO', desc: 'Boost your local online presence to attract more customers from your geographic area' },
-      { title: 'Content Optimization', desc: 'Improve the quality and relevance of your website content to align with SEO best practices' },
-      { title: 'Competitor Analysis', desc: 'Analyze your competitors’ SEO strategies to identify opportunities and threats' },
-      { title: 'Analytics & Reporting', desc: 'Monitor your SEO performance with detailed analytics and comprehensive reports' },
+      {
+        title: 'Investigación de Palabras Clave',
+        desc: 'Identificar palabras clave relevantes y de alto tráfico para optimizar el rendimiento de búsqueda',
+      },
+      {
+        title: 'SEO On-Page',
+        desc: 'Optimizar el contenido y la estructura de tu sitio para mejorar la indexación y ranking en buscadores',
+      },
+      {
+        title: 'SEO Off-Page',
+        desc: 'Mejorar la autoridad de tu sitio a través de link building estratégico y presencia en redes sociales',
+      },
+      {
+        title: 'SEO Técnico',
+        desc: 'Garantizar que tu web cumpla con todos los requisitos técnicos para rastreadores e indexación',
+      },
+      {
+        title: 'SEO Local',
+        desc: 'Impulsar tu presencia local en línea para atraer más clientes de tu área geográfica',
+      },
+      {
+        title: 'Optimización de Contenido',
+        desc: 'Mejorar la calidad y relevancia del contenido para alinearlo con las mejores prácticas de SEO',
+      },
+      {
+        title: 'Análisis de Competencia',
+        desc: 'Analizar las estrategias de SEO de tus competidores para identificar oportunidades de mejora',
+      },
+      {
+        title: 'Analítica y Reportes',
+        desc: 'Monitorear el rendimiento SEO con analíticas detalladas y reportes completos',
+      },
     ],
   },
   {
-    smallTitle: 'Design',
-    bigTitle: 'UX/UI Design',
+    smallTitle: 'Diseño',
+    bigTitle: 'Diseño UX/UI',
     desc: [
-      <div className="p-l">I create engaging and effective digital interfaces that enhance the user experience.</div>,
-      <div className="p-l">From understanding user needs to crafting intuitive layouts and visuals, I verify your</div>,
-      <div className="p-l">application is both functional and aesthetically pleasing. My services include </div>,
-      <div className="p-l">everything from user research to interactive design, helping you achieve a seamless </div>,
-      <div className="p-l">and enjoyable user experience.</div>,
+      <div className="p-l">
+        Creo interfaces digitales atractivas y efectivas que mejoran la
+        experiencia de usuario.
+      </div>,
+      <div className="p-l">
+        Desde entender las necesidades del usuario hasta diseñar layouts
+        intuitivos y visuales,
+      </div>,
+      <div className="p-l">
+        garantizo una experiencia digital altamente funcional y estéticamente
+        agradable.
+      </div>,
     ],
     descMobile: [
-      <div className="p-l">I create engaging and effective digital interfaces that enhance the</div>,
-      <div className="p-l">user experience. From understanding user needs to crafting intuitive</div>,
-      <div className="p-l">layouts and visuals, I verify your application is both functional and</div>,
-      <div className="p-l">esthetically pleasing. My services include everything from user</div>,
-      <div className="p-l">a research to interactive design, helping you achieve a seamless and</div>,
-      <div className="p-l">enjoyable user experience.</div>,
+      <div className="p-l">
+        Creo interfaces digitales atractivas y efectivas que mejoran la
+      </div>,
+      <div className="p-l">
+        experiencia de usuario. Desde entender sus necesidades hasta diseñar
+      </div>,
+      <div className="p-l">
+        layouts intuitivos y visuales, garantizo una interfaz funcional.
+      </div>,
     ],
     options: [
-      { title: 'User Research', desc: 'Understand your users’ needs, behaviors, and pain points to design intuitive interfaces' },
-      { title: 'Wireframing & Prototyping', desc: 'Create sketches and interactive prototypes to visualize and test your application’s structure' },
-      { title: 'Visual Design', desc: 'Design the look and feel of your application, including colors, typography, and graphical elements' },
-      { title: 'Interaction Design', desc: 'Craft interactive elements like buttons and forms to enhance user engagement and ease of use' },
-      { title: 'Usability Testing', desc: 'Test your designs with real users to gather feedback and affirm ease of use' },
-      { title: 'Responsive Design', desc: 'Ensure your design works well on various devices and screen sizes for a consistent experience' },
+      {
+        title: 'Investigación de Usuarios',
+        desc: 'Comprender las necesidades y comportamientos de tus usuarios para diseñar interfaces intuitivas',
+      },
+      {
+        title: 'Wireframing y Prototipado',
+        desc: 'Crear esquemas y prototipos interactivos para visualizar y validar la estructura de la aplicación',
+      },
+      {
+        title: 'Diseño Visual',
+        desc: 'Diseñar el aspecto visual de la aplicación, incluyendo colores, tipografía y elementos gráficos',
+      },
+      {
+        title: 'Diseño de Interacción',
+        desc: 'Diseñar elementos interactivos como botones y formularios para mejorar la facilidad de uso',
+      },
+      {
+        title: 'Pruebas de Usabilidad',
+        desc: 'Probar diseños con usuarios reales para recopilar feedback y asegurar la usabilidad',
+      },
+      {
+        title: 'Diseño Responsivo',
+        desc: 'Asegurar que tu diseño funcione perfectamente en múltiples dispositivos y tamaños de pantalla',
+      },
     ],
   },
 ];
