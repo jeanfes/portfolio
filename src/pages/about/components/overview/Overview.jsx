@@ -8,8 +8,8 @@ function Overview() {
       <div className={styles.title}>
         <AppearTitle>
           <h3 className="h3">
-            El rol de un desarrollador frontend es como el de un <span className="medium">anfitrión ideal</span>: se asegura de que <span className="medium">los visitantes</span> tengan una
-            experiencia <span className="medium">fluida</span>, intuitiva y memorable.
+            La ingeniería de sistemas va más allá del código: se trata de estructurar ecosistemas lógicos, escalables y eficientes, conectando un backend robusto con interfaces premium para asegurar
+            rendimiento, seguridad y una experiencia fluida.
           </h3>
         </AppearTitle>
       </div>
@@ -21,14 +21,14 @@ function Overview() {
       <div className={styles.desc}>
         <AppearTitle>
           <h6 className="h6">
-            ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Frontend graduado de la Universidad Simón Bolívar en Barranquilla, Colombia. Con 3 años de experiencia profesional, me apasiona dar vida a
-            ideas digitales robustas, dinámicas y eficientes.
+            ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Fullstack Ssr graduado de la Universidad Simón Bolívar. Con más de 3 años de experiencia profesional, me especializo en diseñar y construir
+            arquitecturas limpias, robustas y altamente escalables que conectan de manera eficiente el backend y el frontend.
           </h6>
           <h6 className={clsx(styles.paddingTop, 'h6')}>
-            Cuando no estoy programando, dedico mi tiempo libre a ver películas de tecnología, disfrutar de una buena lasaña (mi comida favorita) y jugar videojuegos como Wild Rift. Me considero un
-            desarrollador proactivo, curioso, adaptable y en constante crecimiento, actualmente mejorando mi nivel de inglés (nivel A2).
+            Cuando no estoy diseñando sistemas o escribiendo código, disfruto viendo cine de tecnología, saboreando una buena lasaña y jugando videojuegos competitivos como Wild Rift. Me considero un
+            profesional proactivo, analítico y en constante evolución, enfocado en optimizar procesos y actualmente perfeccionando mi nivel de inglés (B1).
           </h6>
-          <h6 className={clsx(styles.paddingTop, 'h6')}>¡Estoy emocionado por colaborar y crear grandes soluciones juntos!</h6>
+          <h6 className={clsx(styles.paddingTop, 'h6')}>¡Estoy emocionado por colaborar y diseñar soluciones robustas juntos!</h6>
           <h6 className={clsx(styles.paddingTop, 'h6')}>Jean Escobar.</h6>
         </AppearTitle>
       </div>

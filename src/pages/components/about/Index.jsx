@@ -60,7 +60,7 @@ function About() {
         <div className={clsx(styles.descWrapper)} ref={animatedImageRef}>
           <AppearTitle>
             <div className="p-l">
-              “Mi constante evolución como desarrollador me permite resolver problemas complejos de forma creativa, entregando código limpio que impulsa las metas de tu negocio”
+              “Como Ingeniero de Sistemas, transformo la complejidad técnica en soluciones escalables, diseñando arquitecturas lógicas y de alto rendimiento que impulsan el crecimiento del negocio.”
             </div>
           </AppearTitle>
         </div>
@@ -68,8 +68,8 @@ function About() {
         <div className={clsx(styles.descWrapperBottom)}>
           <AppearTitle>
             <h6 className="h6">
-              Soy un Ingeniero de Sistemas especializado en desarrollo Frontend con React, TypeScript y React Native. Con 3 años de experiencia, construyo interfaces accesibles y responsivas, optimizo
-              el rendimiento y trabajo en equipos ágiles entregando features con un fuerte enfoque en UX y diseño interactivo.
+              Soy un Ingeniero de Sistemas y Desarrollador Fullstack Ssr enfocado en la creación de aplicaciones escalables con React, Next.js, Node.js y Python/Django. Con más de 3 años de
+              experiencia, diseño arquitecturas limpias (SOLID, patrones de diseño), APIs robustas y optimizaciones de rendimiento de extremo a extremo.
             </h6>
           </AppearTitle>
           <div className={clsx(styles.buttonContainer)}>

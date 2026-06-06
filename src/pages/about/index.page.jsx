@@ -8,13 +8,14 @@ import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
   title: 'Jean Escobar - Sobre mí',
-  description: 'Conoce más sobre mi trayectoria como Ingeniero de Sistemas, desarrollador frontend, valores y compromiso profesional.',
+  description: 'Conoce más sobre mi trayectoria como Ingeniero de Sistemas y Desarrollador Fullstack, mi experiencia en arquitectura de software y mi compromiso profesional.',
   keywords: [
     'Jean Escobar sobre mí',
     'Acerca de Jean Escobar',
-    'Trayectoria de desarrollador frontend',
     'Ingeniero de Sistemas Colombia',
-    'Especialista en React',
+    'Desarrollador Fullstack Ssr',
+    'Arquitectura de Software',
+    'Next.js y Python Django',
     'Desarrollo de Software profesional',
   ],
 };

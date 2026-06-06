@@ -75,8 +75,8 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador FullStack Ssr. Desarrollé aplicaciones web escalables con React y ASP.NET Core, creando interfaces responsivas y accesibles con Next.js, TypeScript y Tailwind CSS. Optimicé
-              el rendimiento mediante code splitting, lazy-loading y gestión eficiente de estado con Zustand.
+              Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Diseñé e implementé APIs robustas en C# con ASP.NET Core y frontends interactivos con React/Next.js y Zustand. Optimicé drásticamente
+              el rendimiento web (lazy loading, Lighthouse audits).
             </div>
           </AppearTitle>
         </div>
@@ -98,8 +98,8 @@ function Clients() {
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Desarrollador FullStack Ssr. Desarrollé aplicaciones web escalables con React y ASP.NET Core, creando interfaces responsivas y accesibles con Next.js, TypeScript y Tailwind CSS.
-                Optimicé el rendimiento mediante code splitting, lazy-loading y gestión de estado con Zustand.
+                Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Diseñé e implementé APIs robustas en C# con ASP.NET Core y frontends interactivos con React/Next.js y Zustand. Optimicé
+                drásticamente el rendimiento web (lazy loading, Lighthouse audits).
               </div>
             </AppearTitle>
           </div>
@@ -109,7 +109,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2023 - 2025</AppearTitle>
+          <AppearTitle>2023 - Presente</AppearTitle>
         </div>
       ) : null}
       <div
@@ -128,8 +128,8 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador Frontend Jr. Construí experiencias responsivas y accesibles usando React, TypeScript y Material-UI bajo SOLID y Atomic Design. Migré stores legacy a Redux/Zustand, integré
-              APIs de Node.js y alcancé alta cobertura de pruebas con Jest y React Testing Library.
+              Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Evolucioné de Frontend Jr a Fullstack Ssr, liderando soluciones backend con Python/Django e interfaces escalables basadas en SOLID,
+              Zustand y testing riguroso.
             </div>
           </AppearTitle>
         </div>
@@ -143,15 +143,15 @@ function Clients() {
             className={styles.secondText}
           >
             <AppearTitle>
-              <h6 className="h6">2023 - 2025</h6>
+              <h6 className="h6">2023 - Presente</h6>
             </AppearTitle>
             <AppearTitle>
               <h4 className={clsx('h4', 'bold', styles.title)}>Partikle S.A.S</h4>
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Desarrollador Frontend Jr. Construí experiencias responsivas y accesibles usando React, TypeScript y Material-UI bajo SOLID y Atomic Design. Migré stores legacy a Redux/Zustand,
-                integré APIs de Node.js y alcancé alta cobertura de pruebas con Jest y React Testing Library.
+                Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Evolucioné de Frontend Jr a Fullstack Ssr, liderando soluciones backend con Python/Django e interfaces escalables basadas en SOLID,
+                Zustand y testing riguroso.
               </div>
             </AppearTitle>
           </div>
@@ -180,8 +180,8 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Ingeniería de Sistemas. Graduado de la USB. Desarrollé bases sólidas en ingeniería de software y, paralelamente, creé aplicaciones móviles nativas con Kotlin (como LiveNotes y Vibes) e
-              híbridas utilizando React Native y Expo.
+              Ingeniería de Sistemas. Graduado de la USB. Sólidas bases en ingeniería de software, arquitectura de sistemas y algoritmos. Desarrollé aplicaciones móviles nativas con Kotlin (como
+              LiveNotes y Vibes) e híbridas (React Native).
             </div>
           </AppearTitle>
         </div>
@@ -203,8 +203,8 @@ function Clients() {
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Ingeniería de Sistemas. Graduado de la USB. Desarrollé bases sólidas en ingeniería de software y, paralelamente, creé aplicaciones móviles nativas con Kotlin (como LiveNotes y Vibes) e
-                híbridas utilizando React Native y Expo.
+                Ingeniería de Sistemas. Graduado de la USB. Sólidas bases en ingeniería de software, arquitectura de sistemas y algoritmos. Desarrollé aplicaciones móviles nativas con Kotlin (como
+                LiveNotes y Vibes) e híbridas (React Native).
               </div>
             </AppearTitle>
           </div>
