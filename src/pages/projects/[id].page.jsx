@@ -26,17 +26,6 @@ function Page({ id }) {
   const projectIndex = useMemo(() => projects.findIndex((project) => project.id === id), [id]);
   const currentProject = useMemo(() => projects[projectIndex], [projectIndex]);
 
-  const updateCSSVariables = (project) => {
-    gsap.set('html', {
-      '--black': project.primary,
-      '--white': project.secondary,
-      '--accentColor': project.accentColor,
-      '--fillColor': project.fillColor,
-      '--menuColor': project.menuColor,
-      '--menuFontColor': project.menuFontColor,
-    });
-  };
-
   useIsomorphicLayoutEffect(() => {
     const ctx = gsap.context(() => {
       if (!isLoading && !isMobile) {
@@ -62,18 +51,9 @@ function Page({ id }) {
 
   useEffect(() => {
     if (currentProject) {
-      updateCSSVariables(currentProject);
-      setFluidColor(currentProject.fluidColor);
+      setFluidColor('#d7d7d4');
     }
     return () => {
-      updateCSSVariables({
-        primary: '#28282b',
-        secondary: '#f0f4f1',
-        accentColor: '#f9f9f9',
-        fillColor: '#f2ffbd',
-        menuColor: '#28282b',
-        menuFontColor: '#f0f4f1',
-      });
       setFluidColor('#d7d7d4');
     };
   }, [currentProject, setFluidColor]);

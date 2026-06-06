@@ -59,31 +59,19 @@ function About() {
         {isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapper)} ref={animatedImageRef}>
           <AppearTitle>
-            <div className="p-l">“Mi constante evolución como desarrollador</div>
-            <div className="p-l">me permite resolver problemas complejos</div>
-            <div className="p-l">de forma creativa, entregando código limpio</div>
-            <div className="p-l">que impulsa las metas de tu negocio”</div>
+            <div className="p-l">
+              “Mi constante evolución como desarrollador me permite resolver problemas complejos de forma creativa, entregando código limpio que impulsa las metas de tu negocio”
+            </div>
           </AppearTitle>
         </div>
         {!isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapperBottom)}>
-          {!isMobile ? (
-            <AppearTitle key="desktop-descWrapperBottom">
-              <h6 className="h6">Soy un Ingeniero de Sistemas especializado en desarrollo Frontend</h6>
-              <h6 className="h6">con React, TypeScript y React Native. Con 3 años de experiencia,</h6>
-              <h6 className="h6">construyo interfaces accesibles y responsivas, optimizo el rendimiento</h6>
-              <h6 className="h6">y trabajo en equipos ágiles entregando features con un fuerte</h6>
-              <h6 className="h6">enfoque en UX y diseño interactivo.</h6>
-            </AppearTitle>
-          ) : (
-            <AppearTitle key="mobile-descWrapperBottom">
-              <h6 className="h6">
-                {' '}
-                Soy un Ingeniero de Sistemas especializado en desarrollo Frontend con React, TypeScript y React Native. Con 3 años de experiencia, construyo interfaces accesibles y responsivas,
-                optimizo el rendimiento y trabajo en equipos ágiles entregando features con un fuerte enfoque en UX y diseño interactivo.
-              </h6>
-            </AppearTitle>
-          )}
+          <AppearTitle>
+            <h6 className="h6">
+              Soy un Ingeniero de Sistemas especializado en desarrollo Frontend con React, TypeScript y React Native. Con 3 años de experiencia, construyo interfaces accesibles y responsivas, optimizo
+              el rendimiento y trabajo en equipos ágiles entregando features con un fuerte enfoque en UX y diseño interactivo.
+            </h6>
+          </AppearTitle>
           <div className={clsx(styles.buttonContainer)}>
             <ButtonLink href="/about" label="SOBRE MÍ" />
           </div>

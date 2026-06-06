@@ -5,15 +5,16 @@ const containt = [
     smallTitle: 'Desarrollo',
     bigTitle: 'Ciclo de Desarrollo',
     desc: [
-      <div className="p-l">Abordo el desarrollo frontend con un enfoque en la creación de aplicaciones web</div>,
-      <div className="p-l">visualmente impactantes, intuitivas y eficientes. Cada proyecto sigue un plan</div>,
-      <div className="p-l">metódico para asegurar que supere los estándares de calidad y rendimiento.</div>,
+      <div className="p-l">
+        Abordo el desarrollo frontend con un enfoque en la creación de aplicaciones web visualmente impactantes, intuitivas y eficientes. Cada proyecto sigue un plan metódico para asegurar que supere
+        los estándares de calidad y rendimiento.
+      </div>,
     ],
     descMobile: [
-      <div className="p-l"> Abordo el desarrollo frontend con un enfoque en la creación de aplicaciones</div>,
-      <div className="p-l"> web visualmente impactantes, intuitivas y eficientes. Cada proyecto</div>,
-      <div className="p-l">sigue un plan metódico para asegurar que supere los estándares de calidad</div>,
-      <div className="p-l">y rendimiento.</div>,
+      <div className="p-l">
+        Abordo el desarrollo frontend con un enfoque en la creación de aplicaciones web visualmente impactantes, intuitivas y eficientes. Cada proyecto sigue un plan metódico para asegurar que supere
+        los estándares de calidad y rendimiento.
+      </div>,
     ],
     options: [
       {
@@ -58,14 +59,16 @@ const containt = [
     smallTitle: 'Flujo',
     bigTitle: 'Flujo de Trabajo',
     desc: [
-      <div className="p-l">Mi flujo de trabajo se centra en la colaboración activa, la productividad y la</div>,
-      <div className="p-l">entrega de código de calidad comercial. Utilizo herramientas modernas para lograr</div>,
-      <div className="p-l">interfaces interactivas y fluidas de alta fidelidad.</div>,
+      <div className="p-l">
+        Mi flujo de trabajo se centra en la colaboración activa, la productividad y la entrega de código de calidad comercial. Utilizo herramientas modernas para lograr interfaces interactivas y
+        fluidas de alta fidelidad.
+      </div>,
     ],
     descMobile: [
-      <div className="p-l"> Mi flujo de trabajo se centra en la colaboración activa, la</div>,
-      <div className="p-l">productividad y la entrega de código de calidad comercial. Utilizo</div>,
-      <div className="p-l">herramientas modernas para lograr interfaces interactivas y fluidas.</div>,
+      <div className="p-l">
+        Mi flujo de trabajo se centra en la colaboración activa, la productividad y la entrega de código de calidad comercial. Utilizo herramientas modernas para lograr interfaces interactivas y
+        fluidas de alta fidelidad.
+      </div>,
     ],
     options: [
       {
