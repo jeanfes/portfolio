@@ -237,7 +237,7 @@ function Home() {
         </div>
         {!isMobile && (
           <h6 className={clsx('h6', styles.rightContainer)}>
-            Con más de 3 años de experiencia como Ingeniero de Sistemas y Desarrollador Frontend, construyo aplicaciones web y móviles de alto rendimiento, combinando lógica sólida con un diseño
+            Como Ingeniero de Sistemas y Desarrollador Frontend, construyo aplicaciones web y móviles de alto rendimiento, combinando lógica sólida con un diseño
             visual premium y pulido.
           </h6>
         )}
@@ -260,7 +260,7 @@ function Home() {
         <div className={styles.rightContainerMobile}>
           <h6 className="h6">
             {' '}
-            Con más de 3 años de experiencia como Ingeniero de Sistemas y Desarrollador Frontend, construyo aplicaciones web y móviles de alto rendimiento, combinando lógica sólida con un diseño
+            Como Ingeniero de Sistemas y Desarrollador Frontend, construyo aplicaciones web y móviles de alto rendimiento, combinando lógica sólida con un diseño
             visual premium y pulido.
           </h6>
         </div>

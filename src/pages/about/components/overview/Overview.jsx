@@ -43,8 +43,8 @@ function Overview() {
         {!isMobile ? (
           <AppearTitle key="desktop-overview">
             <h6 className="h6">¡Hola! Soy Ingeniero de Sistemas y Desarrollador Frontend graduado de la</h6>
-            <h6 className="h6">Universidad Simón Bolívar en Barranquilla, Colombia. Con 3 años de experiencia</h6>
-            <h6 className="h6">profesional, me apasiona dar vida a ideas digitales robustas, dinámicas y eficientes.</h6>
+            <h6 className="h6">Universidad Simón Bolívar en Barranquilla, Colombia. Me apasiona dar vida a</h6>
+            <h6 className="h6">ideas digitales robustas, dinámicas y eficientes.</h6>
             <h6 className={clsx(styles.paddingTop, 'h6')}>Cuando no estoy programando, dedico mi tiempo libre a ver películas de tecnología,</h6>
             <h6 className="h6">disfrutar de una buena lasaña (mi comida favorita) y jugar videojuegos como Wild Rift.</h6>
             <h6 className="h6">Me considero un desarrollador proactivo, curioso, adaptable y en constante crecimiento,</h6>
@@ -55,7 +55,7 @@ function Overview() {
         ) : (
           <AppearTitle key="mobile-overview">
             <h6 className="h6">
-              ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Frontend graduado de la Universidad Simón Bolívar en Barranquilla, Colombia. Con 3 años de experiencia profesional, me apasiona dar vida
+              ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Frontend graduado de la Universidad Simón Bolívar en Barranquilla, Colombia. Me apasiona dar vida
               a ideas digitales robustas, dinámicas y eficientes.
             </h6>
             <h6 className={clsx(styles.paddingTop, 'h6')}>
