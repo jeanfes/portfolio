@@ -74,12 +74,10 @@ function Clients() {
             <h4 className={clsx('h4', 'bold')}>Dinamicapps S.A.S</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Desarrollador Frontend Ssr. Lideré el desarrollo e</div>
-            <div className="p-l">implementación de chatbots conversacionales interactivos</div>
-            <div className="p-l">e integración de WebSockets para mensajería en tiempo real.</div>
-            <div className="p-l">Optimicé el rendimiento general del frontend con code splitting</div>
-            <div className="p-l">y lazy loading en React, TypeScript y Zustand, garantizando</div>
-            <div className="p-l">interfaces responsivas, limpias y altamente UX-friendly.</div>
+            <div className="p-l">
+              Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Diseñé e implementé APIs robustas en C# con ASP.NET Core y frontends interactivos con React/Next.js y Zustand. Optimicé drásticamente
+              el rendimiento web (lazy loading, Lighthouse audits).
+            </div>
           </AppearTitle>
         </div>
       ) : null}
@@ -99,12 +97,10 @@ function Clients() {
               <h4 className={clsx('h4', 'bold', styles.title)}>Dinamicapps S.A.S</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Desarrollador Frontend Ssr. Lideré el desarrollo e</div>
-              <div className="p-l">implementación de chatbots conversacionales interactivos</div>
-              <div className="p-l">e integración de WebSockets para mensajería en tiempo real.</div>
-              <div className="p-l">Optimicé el rendimiento general del frontend con code splitting</div>
-              <div className="p-l">y lazy loading en React, TypeScript y Zustand, garantizando</div>
-              <div className="p-l">interfaces responsivas, limpias y altamente UX-friendly.</div>
+              <div className="p-l">
+                Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Diseñé e implementé APIs robustas en C# con ASP.NET Core y frontends interactivos con React/Next.js y Zustand. Optimicé
+                drásticamente el rendimiento web (lazy loading, Lighthouse audits).
+              </div>
             </AppearTitle>
           </div>
         </>
@@ -113,7 +109,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2023 - 2025</AppearTitle>
+          <AppearTitle>2023 - Presente</AppearTitle>
         </div>
       ) : null}
       <div
@@ -128,14 +124,13 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Soluciones Americana</h4>
+            <h4 className={clsx('h4', 'bold')}>Partikle S.A.S</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Desarrollador Frontend Jr. Diseñé la arquitectura</div>
-            <div className="p-l">de componentes reutilizables (Atomic Design) con React,</div>
-            <div className="p-l">TypeScript, Redux y Material-UI. Llevé a cabo auditorías</div>
-            <div className="p-l">de rendimiento con Lighthouse y documenté el catálogo de</div>
-            <div className="p-l">componentes interactivos mediante Storybook para el equipo.</div>
+            <div className="p-l">
+              Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Evolucioné de Frontend Jr a Fullstack Ssr, liderando soluciones backend con Python/Django e interfaces escalables basadas en SOLID,
+              Zustand y testing riguroso.
+            </div>
           </AppearTitle>
         </div>
       ) : null}
@@ -148,17 +143,16 @@ function Clients() {
             className={styles.secondText}
           >
             <AppearTitle>
-              <h6 className="h6">2023 - 2025</h6>
+              <h6 className="h6">2023 - Presente</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Soluciones Americana S.A.S</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Partikle S.A.S</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Desarrollador Frontend Jr. Diseñé la arquitectura</div>
-              <div className="p-l">de componentes reutilizables (Atomic Design) con React,</div>
-              <div className="p-l">TypeScript, Redux y Material-UI. Llevé a cabo auditorías</div>
-              <div className="p-l">de rendimiento con Lighthouse y documenté el catálogo de</div>
-              <div className="p-l">componentes interactivos mediante Storybook para el equipo.</div>
+              <div className="p-l">
+                Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Evolucioné de Frontend Jr a Fullstack Ssr, liderando soluciones backend con Python/Django e interfaces escalables basadas en SOLID,
+                Zustand y testing riguroso.
+              </div>
             </AppearTitle>
           </div>
           <div className={styles.fourthEmpty} />
@@ -167,7 +161,7 @@ function Clients() {
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2020 - 2023</AppearTitle>
+          <AppearTitle>2020 - 2025</AppearTitle>
         </div>
       ) : null}
       <div
@@ -185,11 +179,10 @@ function Clients() {
             <h4 className={clsx('h4', 'bold')}>Universidad Simón Bolívar</h4>
           </AppearTitle>
           <AppearTitle>
-            <div className="p-l">Estudios profesionales en Ingeniería de Sistemas</div>
-            <div className="p-l">en Barranquilla, Colombia. Paralelamente, desarrollé</div>
-            <div className="p-l">múltiples proyectos nativos de Android con Kotlin (como</div>
-            <div className="p-l">LiveNotes y Vibes) y aplicaciones móviles híbridas utilizando</div>
-            <div className="p-l">React Native, consolidando mis bases de desarrollo.</div>
+            <div className="p-l">
+              Ingeniería de Sistemas. Graduado de la USB. Sólidas bases en ingeniería de software, arquitectura de sistemas y algoritmos. Desarrollé aplicaciones móviles nativas con Kotlin (como
+              LiveNotes y Vibes) e híbridas (React Native).
+            </div>
           </AppearTitle>
         </div>
       ) : null}
@@ -203,17 +196,16 @@ function Clients() {
             className={styles.thirdText}
           >
             <AppearTitle>
-              <h6 className="h6">2020 - 2023</h6>
+              <h6 className="h6">2020 - 2025</h6>
             </AppearTitle>
             <AppearTitle>
               <h4 className={clsx('h4', 'bold', styles.title)}>Universidad Simón Bolívar</h4>
             </AppearTitle>
             <AppearTitle>
-              <div className="p-l">Estudios profesionales en Ingeniería de Sistemas</div>
-              <div className="p-l">en Barranquilla, Colombia. Paralelamente, desarrollé</div>
-              <div className="p-l">múltiples proyectos nativos de Android con Kotlin (como</div>
-              <div className="p-l">LiveNotes y Vibes) y aplicaciones móviles híbridas utilizando</div>
-              <div className="p-l">React Native, consolidando mis bases de desarrollo.</div>
+              <div className="p-l">
+                Ingeniería de Sistemas. Graduado de la USB. Sólidas bases en ingeniería de software, arquitectura de sistemas y algoritmos. Desarrollé aplicaciones móviles nativas con Kotlin (como
+                LiveNotes y Vibes) e híbridas (React Native).
+              </div>
             </AppearTitle>
           </div>
         </>

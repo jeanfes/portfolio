@@ -9,7 +9,7 @@ const getSchema = () => ({
   '@context': 'http://schema.org',
   '@type': 'Person',
   name: 'Jean Escobar',
-  jobTitle: 'Frontend Developer',
+  jobTitle: 'Ingeniero de Sistemas & Desarrollador Fullstack',
   url: SITE_URL,
   image: OG_IMAGE,
   email: 'mailto:jeanescobar10@hotmail.com',

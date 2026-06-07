@@ -4,15 +4,16 @@ const containt = [
     smallTitle: 'Software',
     bigTitle: 'Ingeniería de Software',
     desc: [
-      <div className="p-l"> Con un enfoque en la innovación y la eficiencia, desarrollo soluciones robustas que</div>,
-      <div className="p-l"> cumplen con tus objetivos de negocio. Desde el frontend hasta el backend, utilizo </div>,
-      <div className="p-l">tecnologías modernas para entregar software escalable y mantenible.</div>,
+      <div className="p-l">
+        Con un enfoque en la innovación y la eficiencia, desarrollo soluciones robustas que cumplen con tus objetivos de negocio. Desde el frontend hasta el backend, utilizo tecnologías modernas para
+        entregar software escalable y mantenible.
+      </div>,
     ],
     descMobile: [
-      <div className="p-l">Con un enfoque en la innovación y la eficiencia, desarrollo robustas</div>,
-      <div className="p-l">soluciones que cumplen tus objetivos. Desde el frontend hasta el</div>,
-      <div className="p-l">backend, utilizo tecnologías modernas para entregar software</div>,
-      <div className="p-l">escalable y mantenible.</div>,
+      <div className="p-l">
+        Con un enfoque en la innovación y la eficiencia, desarrollo soluciones robustas que cumplen con tus objetivos de negocio. Desde el frontend hasta el backend, utilizo tecnologías modernas para
+        entregar software escalable y mantenible.
+      </div>,
     ],
     options: [
       {
@@ -57,14 +58,16 @@ const containt = [
     smallTitle: 'SEO',
     bigTitle: 'Estrategia y Optimización SEO',
     desc: [
-      <div className="p-l">Utilizo métodos avanzados para aumentar la visibilidad en línea de tu sitio web, atraer</div>,
-      <div className="p-l">visitantes de forma orgánica y lograr mejores posiciones en los motores de búsqueda. Desde</div>,
-      <div className="p-l">mejorar el contenido hasta la estructura técnica, aseguro el mejor rendimiento.</div>,
+      <div className="p-l">
+        Utilizo métodos avanzados para aumentar la visibilidad en línea de tu sitio web, atraer visitantes de forma orgánica y lograr mejores posiciones en los motores de búsqueda. Desde mejorar el
+        contenido hasta la estructura técnica, aseguro el mejor rendimiento.
+      </div>,
     ],
     descMobile: [
-      <div className="p-l">Utilizo métodos avanzados para aumentar la visibilidad en línea de</div>,
-      <div className="p-l">tu sitio web, atraer visitantes orgánicos y lograr mejores posiciones</div>,
-      <div className="p-l">en los motores de búsqueda. Optimizo tu sitio de forma integral.</div>,
+      <div className="p-l">
+        Utilizo métodos avanzados para aumentar la visibilidad en línea de tu sitio web, atraer visitantes de forma orgánica y lograr mejores posiciones en los motores de búsqueda. Desde mejorar el
+        contenido hasta la estructura técnica, aseguro el mejor rendimiento.
+      </div>,
     ],
     options: [
       {
@@ -89,7 +92,7 @@ const containt = [
       },
       {
         title: 'Optimización de Contenido',
-        desc: 'Mejorar la calidad y relevancia del contenido para alinearlo con las mejores prácticas de SEO',
+        desc: 'Mejorar la calidad y relevancia del contenido para alineararlo con las mejores prácticas de SEO',
       },
       {
         title: 'Análisis de Competencia',
@@ -105,14 +108,16 @@ const containt = [
     smallTitle: 'Diseño',
     bigTitle: 'Diseño UX/UI',
     desc: [
-      <div className="p-l">Creo interfaces digitales atractivas y efectivas que mejoran la experiencia de usuario.</div>,
-      <div className="p-l">Desde entender las necesidades del usuario hasta diseñar layouts intuitivos y visuales,</div>,
-      <div className="p-l">garantizo una experiencia digital altamente funcional y estéticamente agradable.</div>,
+      <div className="p-l">
+        Creo interfaces digitales atractivas y efectivas que mejoran la experiencia de usuario. Desde entender las necesidades del usuario hasta diseñar layouts intuitivos y visuales, garantizo una
+        experiencia digital altamente funcional y estéticamente agradable.
+      </div>,
     ],
     descMobile: [
-      <div className="p-l">Creo interfaces digitales atractivas y efectivas que mejoran la</div>,
-      <div className="p-l">experiencia de usuario. Desde entender sus necesidades hasta diseñar</div>,
-      <div className="p-l">layouts intuitivos y visuales, garantizo una interfaz funcional.</div>,
+      <div className="p-l">
+        Creo interfaces digitales atractivas y efectivas que mejoran la experiencia de usuario. Desde entender las necesidades del usuario hasta diseñar layouts intuitivos y visuales, garantizo una
+        experiencia digital altamente funcional y estéticamente agradable.
+      </div>,
     ],
     options: [
       {

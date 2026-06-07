@@ -1,0 +1,121 @@
+@import '@src/styles/functions';
+
+.root {
+  background-color: var(--white);
+  padding-bottom: calc(var(--layout-columns-gap) * 6);
+  position: relative;
+  box-shadow:
+    inset 0 calc(var(--layout-columns-gap) * 2.1) 0 0 var(--white),
+    inset calc(var(--layout-margin) * -1.0065) 0 0 0 var(--white),
+    inset 0 calc(var(--layout-columns-gap) * -2.1) 0 0 var(--white),
+    inset calc(var(--layout-margin) * 2.0065) 0 0 0 var(--white);
+
+  @include mobile {
+    box-shadow:
+      inset 0 calc(var(--layout-columns-gap) * 2.1) 0 0 var(--white),
+      inset calc(var(--layout-margin) * -1.0265) 0 0 0 var(--white),
+      inset 0 calc(var(--layout-columns-gap) * -2.1) 0 0 var(--white),
+      inset calc(var(--layout-margin) * 1.0265) 0 0 0 var(--white);
+    padding-bottom: calc(var(--layout-columns-gap) * 3);
+  }
+}
+
+.topContainer {
+  width: 100%;
+  margin-bottom: calc(var(--layout-columns-gap) * 3);
+  background-color: var(--white);
+
+  @include mobile {
+    margin-bottom: calc(var(--layout-columns-gap) * 1.5);
+  }
+}
+
+.text {
+  color: var(--black);
+  z-index: 2;
+  position: relative;
+}
+
+.experienceGrid {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--layout-columns-gap) * 4);
+  background-color: var(--white);
+  width: 100%;
+
+  @include mobile {
+    gap: calc(var(--layout-columns-gap) * 2.5);
+  }
+}
+
+.expCard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: calc(var(--layout-columns-gap) * 3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: calc(var(--layout-columns-gap) * 3);
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: calc(var(--layout-columns-gap) * 1);
+    padding-bottom: calc(var(--layout-columns-gap) * 2);
+  }
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--layout-columns-gap) * 0.5);
+}
+
+.company {
+  color: var(--black);
+  font-weight: 650;
+}
+
+.role {
+  color: var(--black);
+  font-weight: 550;
+  opacity: 0.85;
+}
+
+.period {
+  color: var(--black);
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--layout-columns-gap) * 1.5);
+}
+
+.descText {
+  color: var(--black);
+  line-height: 160%;
+  text-align: justify;
+}
+
+.stackContainer {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--layout-columns-gap) * 0.25);
+  padding-top: calc(var(--layout-columns-gap) * 0.5);
+}
+
+.stackLabel {
+  color: var(--black);
+  opacity: 0.7;
+}
+
+.stackText {
+  color: var(--black);
+  opacity: 0.8;
+  line-height: 140%;
+}

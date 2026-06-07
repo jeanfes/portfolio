@@ -1,19 +1,21 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import Hero from '@src/pages/about/components/hero/Hero';
 import Overview from '@src/pages/about/components/overview/Overview';
+import Experience from '@src/pages/about/components/experience/Experience';
 import Services from '@src/pages/about/components/services/Services';
 import Process from '@src/pages/about/components/process/Process';
 import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
   title: 'Jean Escobar - Sobre mí',
-  description: 'Conoce más sobre mi trayectoria como Ingeniero de Sistemas, desarrollador frontend, valores y compromiso profesional.',
+  description: 'Conoce más sobre mi trayectoria como Ingeniero de Sistemas y Desarrollador Fullstack, mi experiencia en arquitectura de software y mi compromiso profesional.',
   keywords: [
     'Jean Escobar sobre mí',
     'Acerca de Jean Escobar',
-    'Trayectoria de desarrollador frontend',
     'Ingeniero de Sistemas Colombia',
-    'Especialista en React',
+    'Desarrollador Fullstack Ssr',
+    'Arquitectura de Software',
+    'Next.js y Python Django',
     'Desarrollo de Software profesional',
   ],
 };
@@ -24,6 +26,7 @@ function Page() {
 
       <Hero />
       <Overview />
+      <Experience />
       <Services />
       <Process />
     </>

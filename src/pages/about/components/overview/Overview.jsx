@@ -1,38 +1,17 @@
 import AppearTitle from '@src/components/animationComponents/appearTitle/Index';
 import clsx from 'clsx';
 import styles from '@src/pages/about/components/overview/styles/overview.module.scss';
-import useIsMobile from '@src/hooks/useIsMobile';
 
 function Overview() {
-  const isMobile = useIsMobile();
-
   return (
     <section className={clsx(styles.root, 'layout-grid-inner')}>
       <div className={styles.title}>
-        {isMobile ? (
-          <AppearTitle key="mobile-queto">
-            <h3 className="h3">El rol de un desarrollador</h3>
-            <h3 className="h3">
-              frontend es como el de un <span className="medium">anfitrión</span>
-            </h3>
-            <h3 className="h3">
-              ideal: se asegura de que <span className="medium">los visitantes</span> tengan
-            </h3>
-            <h3 className="h3">
-              una experiencia <span className="medium">fluida</span> y memorable.
-            </h3>
-          </AppearTitle>
-        ) : (
-          <AppearTitle key="desktop-queto">
-            <h3 className="h3">El rol de un desarrollador frontend es como el de un</h3>
-            <h3 className="h3">
-              anfitrión ideal: se asegura de que <span className="medium">los visitantes</span> tengan
-            </h3>
-            <h3 className="h3">
-              una experiencia <span className="medium">fluida</span>, intuitiva y memorable.
-            </h3>
-          </AppearTitle>
-        )}
+        <AppearTitle>
+          <h3 className="h3">
+            La ingeniería de sistemas va más allá del código: se trata de estructurar ecosistemas lógicos, escalables y eficientes, conectando un backend robusto con interfaces premium para asegurar
+            rendimiento, seguridad y una experiencia fluida.
+          </h3>
+        </AppearTitle>
       </div>
       <div className={clsx(styles.text, 'p-l', styles.myStory)}>
         <AppearTitle>

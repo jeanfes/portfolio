@@ -59,10 +59,9 @@ function About() {
         {isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapper)} ref={animatedImageRef}>
           <AppearTitle>
-            <div className="p-l">“Mi constante evolución como desarrollador</div>
-            <div className="p-l">me permite resolver problemas complejos</div>
-            <div className="p-l">de forma creativa, entregando código limpio</div>
-            <div className="p-l">que impulsa las metas de tu negocio”</div>
+            <div className="p-l">
+              “Como Ingeniero de Sistemas, transformo la complejidad técnica en soluciones escalables, diseñando arquitecturas lógicas y de alto rendimiento que impulsan el crecimiento del negocio.”
+            </div>
           </AppearTitle>
         </div>
         {!isMobile ? renderImageContainer() : null}
