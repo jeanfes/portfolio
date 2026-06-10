@@ -1,8 +1,10 @@
 import AppearTitle from '@src/components/animationComponents/appearTitle/Index';
 import clsx from 'clsx';
 import styles from '@src/pages/about/components/overview/styles/overview.module.scss';
+import useIsMobile from '@src/hooks/useIsMobile';
 
 function Overview() {
+  const isMobile = useIsMobile();
   return (
     <section className={clsx(styles.root, 'layout-grid-inner')}>
       <div className={styles.title}>
@@ -34,8 +36,8 @@ function Overview() {
         ) : (
           <AppearTitle key="mobile-overview">
             <h6 className="h6">
-              ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Frontend graduado de la Universidad Simón Bolívar en Barranquilla, Colombia. Me apasiona dar vida
-              a ideas digitales robustas, dinámicas y eficientes.
+              ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Frontend graduado de la Universidad Simón Bolívar en Barranquilla, Colombia. Me apasiona dar vida a ideas digitales robustas, dinámicas y
+              eficientes.
             </h6>
             <h6 className={clsx(styles.paddingTop, 'h6')}>
               Cuando no estoy programando, dedico mi tiempo libre a ver películas de tecnología, disfrutar de una buena lasaña (mi comida favorita) y jugar videojuegos como Wild Rift. Me considero un

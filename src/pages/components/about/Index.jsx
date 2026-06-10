@@ -78,8 +78,8 @@ function About() {
             <AppearTitle key="mobile-descWrapperBottom">
               <h6 className="h6">
                 {' '}
-                Soy un Ingeniero de Sistemas especializado en desarrollo Frontend con React, TypeScript y React Native. Construyo interfaces accesibles y responsivas,
-                optimizo el rendimiento y trabajo en equipos ágiles entregando features con un fuerte enfoque en UX y diseño interactivo.
+                Soy un Ingeniero de Sistemas especializado en desarrollo Frontend con React, TypeScript y React Native. Construyo interfaces accesibles y responsivas, optimizo el rendimiento y trabajo
+                en equipos ágiles entregando features con un fuerte enfoque en UX y diseño interactivo.
               </h6>
             </AppearTitle>
           )}
