@@ -212,7 +212,6 @@ function Clients() {
       ) : null}
 
       {/* ELEMENTO 4: Partikle S.A.S (Frontend Jr) */}
-      {!isMobile ? <div className={styles.secondEmpty} /> : null}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
@@ -223,7 +222,7 @@ function Clients() {
         ref={(el) => {
           badgeRefs.current[3] = el;
         }}
-        className={styles.fourth}
+        className={styles.first}
       >
         <Badge name="company2" />
       </div>
@@ -242,6 +241,7 @@ function Clients() {
       ) : null}
       {!isMobile ? (
         <>
+          <div className={styles.firstEmpty} />
           <div
             ref={(el) => {
               textRefs.current[3] = el;
@@ -260,7 +260,6 @@ function Clients() {
               </div>
             </AppearTitle>
           </div>
-          <div className={styles.fourthEmpty} />
         </>
       ) : null}
 
@@ -276,7 +275,7 @@ function Clients() {
         ref={(el) => {
           badgeRefs.current[4] = el;
         }}
-        className={styles.fifth}
+        className={styles.second}
       >
         <Badge name="company3" />
       </div>
