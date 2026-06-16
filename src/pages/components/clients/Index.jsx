@@ -77,8 +77,7 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador Fullstack Ssr. Lidero el desarrollo de aplicaciones web de extremo a extremo con Python/Django y React/TypeScript, optimizando APIs y consultas para reducir tiempos de
-              respuesta en un 30%.
+              Desarrollador Fullstack Ssr. Lidero el desarrollo de aplicaciones web de extremo a extremo con Python/Django y React/TypeScript, estructurando arquitecturas modulares basadas en SOLID.
             </div>
           </AppearTitle>
         </div>
@@ -100,20 +99,19 @@ function Clients() {
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Desarrollador Fullstack Ssr. Lidero el desarrollo de aplicaciones web de extremo a extremo con Python/Django y React/TypeScript, optimizando APIs y consultas para reducir tiempos de
-                respuesta en un 30%.
+                Desarrollador Fullstack Ssr. Lidero el desarrollo de aplicaciones web de extremo a extremo con Python/Django y React/TypeScript, estructurando arquitecturas modulares basadas en SOLID.
               </div>
             </AppearTitle>
           </div>
         </>
       ) : null}
 
-      {/* ELEMENTO 2: Dinamicapps S.A.S */}
+      {/* ELEMENTO 2: Freelance */}
       {!isMobile ? <div className={styles.secondEmpty} /> : null}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2025</AppearTitle>
+          <AppearTitle>2025 - 2026</AppearTitle>
         </div>
       ) : null}
       <div
@@ -128,12 +126,11 @@ function Clients() {
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Dinamicapps S.A.S</h4>
+            <h4 className={clsx('h4', 'bold')}>Freelance</h4>
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador Fullstack Ssr. Diseñé e implementé APIs robustas en C# con ASP.NET Core y frontends interactivos con React/Next.js y Zustand. Optimicé drásticamente el rendimiento web
-              (auditorías Lighthouse).
+              Desarrollador Fullstack Ssr. Diseñé e implementé productos de software completos desde el backend con Node.js/Express hasta la interfaz responsiva en React/Next.js y TypeScript.
             </div>
           </AppearTitle>
         </div>
@@ -147,15 +144,14 @@ function Clients() {
             className={styles.secondText}
           >
             <AppearTitle>
-              <h6 className="h6">2025</h6>
+              <h6 className="h6">2025 - 2026</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Dinamicapps S.A.S</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Freelance</h4>
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Desarrollador Fullstack Ssr. Diseñé e implementé APIs robustas en C# con ASP.NET Core y frontends interactivos con React/Next.js y Zustand. Optimicé drásticamente el rendimiento web
-                (auditorías Lighthouse).
+                Desarrollador Fullstack Ssr. Diseñé e implementé productos de software completos desde el backend con Node.js/Express hasta la interfaz responsiva en React/Next.js y TypeScript.
               </div>
             </AppearTitle>
           </div>
@@ -163,11 +159,11 @@ function Clients() {
         </>
       ) : null}
 
-      {/* ELEMENTO 3: Partikle S.A.S (Frontend Jr) */}
+      {/* ELEMENTO 3: Dinamicapps S.A.S */}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2023 - 2025</AppearTitle>
+          <AppearTitle>2025</AppearTitle>
         </div>
       ) : null}
       <div
@@ -176,18 +172,17 @@ function Clients() {
         }}
         className={styles.third}
       >
-        <Badge name="company2" />
+        <Badge name="company1" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Partikle S.A.S</h4>
+            <h4 className={clsx('h4', 'bold')}>Dinamicapps S.A.S</h4>
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador Frontend Jr. Construí interfaces accesibles con React y SASS/Material-UI. Colaboré en la integración de APIs, desarrollo de microservicios con Node.js y logré más del 75%
-              de cobertura de pruebas unitarias.
+              Desarrollador Fullstack Ssr. Desarrollé plataformas web corporativas integrando robustos servicios backend en ASP.NET Core (C#) con interfaces accesibles en React/Next.js.
             </div>
           </AppearTitle>
         </div>
@@ -202,27 +197,26 @@ function Clients() {
             className={styles.thirdText}
           >
             <AppearTitle>
-              <h6 className="h6">2023 - 2025</h6>
+              <h6 className="h6">2025</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Partikle S.A.S</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Dinamicapps S.A.S</h4>
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Desarrollador Frontend Jr. Construí interfaces accesibles con React y SASS/Material-UI. Colaboré en la integración de APIs, desarrollo de microservicios con Node.js y logré más del 75%
-                de cobertura de pruebas unitarias.
+                Desarrollador Fullstack Ssr. Desarrollé plataformas web corporativas integrando robustos servicios backend en ASP.NET Core (C#) con interfaces accesibles en React/Next.js.
               </div>
             </AppearTitle>
           </div>
         </>
       ) : null}
 
-      {/* ELEMENTO 4: Universidad Simón Bolívar */}
+      {/* ELEMENTO 4: Partikle S.A.S (Frontend Jr) */}
       {!isMobile ? <div className={styles.secondEmpty} /> : null}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2020 - 2025</AppearTitle>
+          <AppearTitle>2023 - 2025</AppearTitle>
         </div>
       ) : null}
       <div
@@ -231,18 +225,17 @@ function Clients() {
         }}
         className={styles.fourth}
       >
-        <Badge name="company3" />
+        <Badge name="company2" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Universidad Simón Bolívar</h4>
+            <h4 className={clsx('h4', 'bold')}>Partikle S.A.S</h4>
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Ingeniería de Sistemas. Graduado de la USB. Sólidas bases en ingeniería de software, arquitectura de sistemas y algoritmos. Desarrollé aplicaciones móviles nativas con Kotlin (como
-              LiveNotes y Vibes) e híbridas (React Native).
+              Desarrollador Frontend Jr. Desarrollé interfaces accesibles en React/TypeScript y Material UI, migrando estados a Zustand/Redux y logrando cobertura del 75%+ de pruebas con Jest.
             </div>
           </AppearTitle>
         </div>
@@ -256,6 +249,60 @@ function Clients() {
             className={styles.fourthText}
           >
             <AppearTitle>
+              <h6 className="h6">2023 - 2025</h6>
+            </AppearTitle>
+            <AppearTitle>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Partikle S.A.S</h4>
+            </AppearTitle>
+            <AppearTitle>
+              <div className="p-l">
+                Desarrollador Frontend Jr. Desarrollé interfaces accesibles en React/TypeScript y Material UI, migrando estados a Zustand/Redux y logrando cobertura del 75%+ de pruebas con Jest.
+              </div>
+            </AppearTitle>
+          </div>
+          <div className={styles.fourthEmpty} />
+        </>
+      ) : null}
+
+      {/* ELEMENTO 5: Universidad Simón Bolívar */}
+      {!isMobile ? <div className={styles.secondEmpty} /> : null}
+      {isMobile ? <div className={styles.mobileEmpty} /> : null}
+      {isMobile ? (
+        <div className={styles.mobileCount}>
+          <AppearTitle>2020 - 2025</AppearTitle>
+        </div>
+      ) : null}
+      <div
+        ref={(el) => {
+          badgeRefs.current[4] = el;
+        }}
+        className={styles.fifth}
+      >
+        <Badge name="company3" />
+      </div>
+      {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
+      {isMobile ? (
+        <div className={styles.textMobile}>
+          <AppearTitle>
+            <h4 className={clsx('h4', 'bold')}>Universidad Simón Bolívar</h4>
+          </AppearTitle>
+          <AppearTitle>
+            <div className="p-l">
+              Ingeniería de Sistemas. Graduado de la Universidad Simón Bolívar. Sólida formación en fundamentos de ciencias de la computación, arquitectura de software, bases de datos y metodologías
+              ágiles de desarrollo.
+            </div>
+          </AppearTitle>
+        </div>
+      ) : null}
+      {!isMobile ? (
+        <>
+          <div
+            ref={(el) => {
+              textRefs.current[4] = el;
+            }}
+            className={styles.fifthText}
+          >
+            <AppearTitle>
               <h6 className="h6">2020 - 2025</h6>
             </AppearTitle>
             <AppearTitle>
@@ -263,8 +310,8 @@ function Clients() {
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Ingeniería de Sistemas. Graduado de la USB. Sólidas bases en ingeniería de software, arquitectura de sistemas y algoritmos. Desarrollé aplicaciones móviles nativas con Kotlin (como
-                LiveNotes y Vibes) e híbridas (React Native).
+                Ingeniería de Sistemas. Graduado de la Universidad Simón Bolívar. Sólida formación en fundamentos de ciencias de la computación, arquitectura de software, bases de datos y metodologías
+                ágiles de desarrollo.
               </div>
             </AppearTitle>
           </div>
