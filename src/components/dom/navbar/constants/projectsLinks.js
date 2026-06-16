@@ -4,12 +4,8 @@ const projectsLinks = [
     href: '/projects/livenotes',
   },
   {
-    title: 'Vibes',
-    href: '/projects/vibes',
-  },
-  {
-    title: 'Alphabook',
-    href: '/projects/alphabook',
+    title: 'Mirror',
+    href: '/projects/mirror',
   },
 ];
 export default projectsLinks;
