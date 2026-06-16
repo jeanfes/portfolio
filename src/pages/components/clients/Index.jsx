@@ -53,10 +53,12 @@ function Clients() {
       <h1 className={clsx(styles.sectionTitle, 'h1')}>
         <AppearByWords>Trayectoria</AppearByWords>
       </h1>
+
+      {/* ELEMENTO 1: Partikle S.A.S (Fullstack Ssr) */}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2025</AppearTitle>
+          <AppearTitle>2026 - Presente</AppearTitle>
         </div>
       ) : null}
       <div
@@ -65,18 +67,18 @@ function Clients() {
         }}
         className={styles.first}
       >
-        <Badge name="company1" />
+        <Badge name="company2" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Dinamicapps S.A.S</h4>
+            <h4 className={clsx('h4', 'bold')}>Partikle S.A.S</h4>
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Diseñé e implementé APIs robustas en C# con ASP.NET Core y frontends interactivos con React/Next.js y Zustand. Optimicé drásticamente
-              el rendimiento web (lazy loading, Lighthouse audits).
+              Desarrollador Fullstack Ssr. Lidero el desarrollo de aplicaciones web de extremo a extremo con Python/Django y React/TypeScript, optimizando APIs y consultas para reducir tiempos de
+              respuesta en un 30%.
             </div>
           </AppearTitle>
         </div>
@@ -91,25 +93,27 @@ function Clients() {
             className={styles.firstText}
           >
             <AppearTitle>
-              <h6 className="h6">2025</h6>
+              <h6 className="h6">2026 - Presente</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Dinamicapps S.A.S</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Partikle S.A.S</h4>
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Diseñé e implementé APIs robustas en C# con ASP.NET Core y frontends interactivos con React/Next.js y Zustand. Optimicé
-                drásticamente el rendimiento web (lazy loading, Lighthouse audits).
+                Desarrollador Fullstack Ssr. Lidero el desarrollo de aplicaciones web de extremo a extremo con Python/Django y React/TypeScript, optimizando APIs y consultas para reducir tiempos de
+                respuesta en un 30%.
               </div>
             </AppearTitle>
           </div>
         </>
       ) : null}
+
+      {/* ELEMENTO 2: Dinamicapps S.A.S */}
       {!isMobile ? <div className={styles.secondEmpty} /> : null}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
-          <AppearTitle>2023 - Presente</AppearTitle>
+          <AppearTitle>2025</AppearTitle>
         </div>
       ) : null}
       <div
@@ -118,18 +122,18 @@ function Clients() {
         }}
         className={styles.second}
       >
-        <Badge name="company2" />
+        <Badge name="company1" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
       {isMobile ? (
         <div className={styles.textMobile}>
           <AppearTitle>
-            <h4 className={clsx('h4', 'bold')}>Partikle S.A.S</h4>
+            <h4 className={clsx('h4', 'bold')}>Dinamicapps S.A.S</h4>
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Evolucioné de Frontend Jr a Fullstack Ssr, liderando soluciones backend con Python/Django e interfaces escalables basadas en SOLID,
-              Zustand y testing riguroso.
+              Desarrollador Fullstack Ssr. Diseñé e implementé APIs robustas en C# con ASP.NET Core y frontends interactivos con React/Next.js y Zustand. Optimicé drásticamente el rendimiento web
+              (auditorías Lighthouse).
             </div>
           </AppearTitle>
         </div>
@@ -143,21 +147,78 @@ function Clients() {
             className={styles.secondText}
           >
             <AppearTitle>
-              <h6 className="h6">2023 - Presente</h6>
+              <h6 className="h6">2025</h6>
             </AppearTitle>
             <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Partikle S.A.S</h4>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Dinamicapps S.A.S</h4>
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Ingeniero de Sistemas & Desarrollador Fullstack Ssr. Evolucioné de Frontend Jr a Fullstack Ssr, liderando soluciones backend con Python/Django e interfaces escalables basadas en SOLID,
-                Zustand y testing riguroso.
+                Desarrollador Fullstack Ssr. Diseñé e implementé APIs robustas en C# con ASP.NET Core y frontends interactivos con React/Next.js y Zustand. Optimicé drásticamente el rendimiento web
+                (auditorías Lighthouse).
               </div>
             </AppearTitle>
           </div>
           <div className={styles.fourthEmpty} />
         </>
       ) : null}
+
+      {/* ELEMENTO 3: Partikle S.A.S (Frontend Jr) */}
+      {isMobile ? <div className={styles.mobileEmpty} /> : null}
+      {isMobile ? (
+        <div className={styles.mobileCount}>
+          <AppearTitle>2023 - 2025</AppearTitle>
+        </div>
+      ) : null}
+      <div
+        ref={(el) => {
+          badgeRefs.current[2] = el;
+        }}
+        className={styles.third}
+      >
+        <Badge name="company2" />
+      </div>
+      {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
+      {isMobile ? (
+        <div className={styles.textMobile}>
+          <AppearTitle>
+            <h4 className={clsx('h4', 'bold')}>Partikle S.A.S</h4>
+          </AppearTitle>
+          <AppearTitle>
+            <div className="p-l">
+              Desarrollador Frontend Jr. Construí interfaces accesibles con React y SASS/Material-UI. Colaboré en la integración de APIs, desarrollo de microservicios con Node.js y logré más del 75%
+              de cobertura de pruebas unitarias.
+            </div>
+          </AppearTitle>
+        </div>
+      ) : null}
+      {!isMobile ? (
+        <>
+          <div className={styles.fifthEmpty} />
+          <div
+            ref={(el) => {
+              textRefs.current[2] = el;
+            }}
+            className={styles.thirdText}
+          >
+            <AppearTitle>
+              <h6 className="h6">2023 - 2025</h6>
+            </AppearTitle>
+            <AppearTitle>
+              <h4 className={clsx('h4', 'bold', styles.title)}>Partikle S.A.S</h4>
+            </AppearTitle>
+            <AppearTitle>
+              <div className="p-l">
+                Desarrollador Frontend Jr. Construí interfaces accesibles con React y SASS/Material-UI. Colaboré en la integración de APIs, desarrollo de microservicios con Node.js y logré más del 75%
+                de cobertura de pruebas unitarias.
+              </div>
+            </AppearTitle>
+          </div>
+        </>
+      ) : null}
+
+      {/* ELEMENTO 4: Universidad Simón Bolívar */}
+      {!isMobile ? <div className={styles.secondEmpty} /> : null}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
@@ -166,9 +227,9 @@ function Clients() {
       ) : null}
       <div
         ref={(el) => {
-          badgeRefs.current[2] = el;
+          badgeRefs.current[3] = el;
         }}
-        className={styles.third}
+        className={styles.fourth}
       >
         <Badge name="company3" />
       </div>
@@ -188,12 +249,11 @@ function Clients() {
       ) : null}
       {!isMobile ? (
         <>
-          <div className={styles.fifthEmpty} />
           <div
             ref={(el) => {
-              textRefs.current[2] = el;
+              textRefs.current[3] = el;
             }}
-            className={styles.thirdText}
+            className={styles.fourthText}
           >
             <AppearTitle>
               <h6 className="h6">2020 - 2025</h6>
@@ -208,6 +268,7 @@ function Clients() {
               </div>
             </AppearTitle>
           </div>
+          <div className={styles.fourthEmpty} />
         </>
       ) : null}
     </section>
