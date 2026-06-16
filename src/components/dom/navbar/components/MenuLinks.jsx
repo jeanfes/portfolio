@@ -184,7 +184,7 @@ function MenuLinks() {
             }}
             className={styles.menuListItem}
           >
-            <Link aria-label="Send email" scroll={false} href="mailto:jeanescobar10@hotmail.com">
+            <Link aria-label="Send WhatsApp message" target="_blank" rel="noopener noreferrer" scroll={false} href="https://wa.me/573043105872">
               <span>ESCRÍBEME</span>
             </Link>
           </div>

@@ -8,15 +8,17 @@ import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
   title: 'Jean Escobar - Sobre mí',
-  description: 'Conoce más sobre mi trayectoria como Ingeniero de Sistemas y Desarrollador Fullstack, mi experiencia en arquitectura de software y mi compromiso profesional.',
+  description:
+    'Conoce más sobre mi trayectoria profesional como Ingeniero de Sistemas y Desarrollador Fullstack, especializado en la entrega de soluciones tecnológicas eficientes, mantenibles y de alto valor de negocio.',
   keywords: [
     'Jean Escobar sobre mí',
     'Acerca de Jean Escobar',
     'Ingeniero de Sistemas Colombia',
     'Desarrollador Fullstack Ssr',
     'Arquitectura de Software',
-    'Next.js y Python Django',
-    'Desarrollo de Software profesional',
+    'Clean Architecture',
+    'Patrones de Diseño',
+    'Ingeniería de Software',
   ],
 };
 function Page() {

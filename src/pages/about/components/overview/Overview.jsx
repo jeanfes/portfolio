@@ -23,12 +23,14 @@ function Overview() {
       <div className={styles.desc}>
         {!isMobile ? (
           <AppearTitle key="desktop-overview">
-            <h6 className="h6">¡Hola! Soy Ingeniero de Sistemas y Desarrollador Full Stack graduado de la</h6>
-            <h6 className="h6">Universidad Simón Bolívar en Barranquilla, Colombia. Me apasiona dar vida a</h6>
-            <h6 className="h6">ideas digitales robustas, dinámicas y eficientes.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>Cuando no estoy programando, disfruto de ver películas de tecnología, jugar videojuegos y compartir buenas conversaciones.</h6>
-            <h6 className="h6">Me considero un profesional proactivo, con alta capacidad de adaptación y aprendizaje continuo,</h6>
-            <h6 className="h6">enfocado en el crecimiento constante y en expandir mis competencias técnicas y de comunicación.</h6>
+            <h6 className="h6">
+              ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Full Stack graduado de la Universidad Simón Bolívar en Barranquilla, Colombia. Me apasiona dar vida a ideas digitales robustas, dinámicas
+              y eficientes.
+            </h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>
+              Cuando no estoy programando, disfruto de ver películas de tecnología, jugar videojuegos y compartir buenas conversaciones. Me considero un profesional proactivo, con alta capacidad de
+              adaptación y aprendizaje continuo, enfocado en el crecimiento constante y en expandir mis competencias técnicas y de comunicación.
+            </h6>
             <h6 className={clsx(styles.paddingTop, 'h6')}>¡Estoy emocionado por integrarme a nuevos proyectos y aportar valor a tu equipo!</h6>
             <h6 className={clsx(styles.paddingTop, 'h6')}>Jean Escobar.</h6>
           </AppearTitle>

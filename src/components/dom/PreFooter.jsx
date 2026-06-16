@@ -7,12 +7,12 @@ function PreFooter() {
     <section className={clsx(styles.root, 'layout-block-inner')}>
       <div className={styles.textsContainer}>
         <div>
-          <h2 className="h1">Cortemos de raíz</h2>
-          <h2 className="h1"> tu próximo desafío</h2>
-          <h2 className="h1"> juntos!</h2>
+          <h2 className="h1">¿Listo para</h2>
+          <h2 className="h1"> potenciar tu equipo</h2>
+          <h2 className="h1"> técnico?</h2>
         </div>
         <div>
-          <h6 className="h6">Comienza tu proyecto con un socio tecnológico de confianza hoy.</h6>
+          <h6 className="h6">Desarrollador e Ingeniero de Sistemas enfocado en crear experiencias digitales excepcionales.</h6>
         </div>
       </div>
 

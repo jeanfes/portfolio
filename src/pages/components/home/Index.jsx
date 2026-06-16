@@ -237,8 +237,8 @@ function Home() {
         </div>
         {!isMobile && (
           <h6 className={clsx('h6', styles.rightContainer)}>
-            Como Ingeniero de Sistemas y Desarrollador Full Stack, diseño y construyo soluciones web y móviles escalables de extremo a extremo, integrando arquitecturas backend robustas con
-            experiencias digitales fluidas y de alto rendimiento.
+            Como Ingeniero de Sistemas y Desarrollador Full Stack, diseño y construyo ecosistemas de software escalables, integrando backend y frontend con un enfoque riguroso en la mantenibilidad, el
+            rendimiento extremo y las mejores prácticas de ingeniería.
           </h6>
         )}
       </div>
@@ -259,9 +259,8 @@ function Home() {
       {isMobile && (
         <div className={styles.rightContainerMobile}>
           <h6 className="h6">
-            {' '}
-            Como Ingeniero de Sistemas y Desarrollador Full Stack, diseño y construyo soluciones web y móviles escalables de extremo a extremo, integrando arquitecturas backend robustas con
-            experiencias digitales fluidas y de alto rendimiento.
+            Como Ingeniero de Sistemas y Desarrollador Full Stack, diseño y construyo ecosistemas de software escalables, integrando backend y frontend con un enfoque riguroso en la mantenibilidad, el
+            rendimiento extremo y las mejores prácticas de ingeniería.
           </h6>
         </div>
       )}

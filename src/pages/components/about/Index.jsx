@@ -69,18 +69,15 @@ function About() {
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
               <h6 className="h6">
-                Soy un Ingeniero de Sistemas y Desarrollador Full Stack apasionado por diseñar e implementar arquitecturas de software escalables y eficientes. Con experiencia en metodologías ágiles y
-                patrones de diseño modernos, construyo APIs robustas y seguras (Node.js, Python/Django, ASP.NET Core) junto con aplicaciones web y móviles intuitivas (React, Next.js, React Native),
-                enfocándome en el rendimiento de extremo a extremo y en la entrega de valor de negocio.
+                Soy un Ingeniero de Sistemas enfocado en el desarrollo full-stack, especializado en la creación de servicios y plataformas de software robustas. Diseño arquitecturas modulares, APIs e
+                integraciones seguras bajo patrones de diseño modernos, garantizando la eficiencia operativa, la escalabilidad y una experiencia de usuario sobresaliente en cada entrega.
               </h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
               <h6 className="h6">
-                {' '}
-                Soy un Ingeniero de Sistemas y Desarrollador Full Stack apasionado por diseñar e implementar arquitecturas de software escalables y eficientes. Con experiencia en metodologías ágiles y
-                patrones de diseño modernos, construyo APIs robustas y seguras (Node.js, Python/Django, ASP.NET Core) junto con aplicaciones web y móviles intuitivas (React, Next.js, React Native),
-                enfocándome en el rendimiento de extremo a extremo y en la entrega de valor de negocio.
+                Soy un Ingeniero de Sistemas enfocado en el desarrollo full-stack, especializado en la creación de servicios y plataformas de software robustas. Diseño arquitecturas modulares, APIs e
+                integraciones seguras bajo patrones de diseño modernos, garantizando la eficiencia operativa, la escalabilidad y una experiencia de usuario sobresaliente en cada entrega.
               </h6>
             </AppearTitle>
           )}

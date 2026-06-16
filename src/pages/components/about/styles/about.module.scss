@@ -33,6 +33,13 @@
         grid-column: 2 / 6;
       }
 
+      :global(.p-l) {
+        font-size: 1.3vw;
+        @include mobile {
+          font-size: 3.4vw;
+        }
+      }
+
       // &:after {
       //   display: block;
       //   content: '';
@@ -57,14 +64,15 @@
       }
     }
     .imageContainer {
-      height: 53vw;
+      height: 40vw;
       position: relative;
-      grid-column: 9 / 17;
+      grid-column: 9 / 16;
       @include mobile {
-        height: 110vw;
-        grid-column: 1 / 7;
+        height: 75vw;
+        grid-column: 2 / 6;
       }
       > img {
+        object-fit: cover;
         @include mobile {
           border-radius: calc(var(--layout-columns-gap) * 0.5);
         }

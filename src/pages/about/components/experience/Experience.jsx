@@ -9,14 +9,14 @@ const experiences = [
     company: 'Partikle S.A.S',
     role: 'Desarrollador Fullstack Ssr',
     period: 'Mayo 2026 – Actualidad',
-    desc: 'Como Desarrollador Fullstack Ssr en Partikle S.A.S, lidero el desarrollo de aplicaciones orientadas a producto utilizando Python, Django, React y TypeScript, creando soluciones altamente escalables, robustas y alineadas con las mejores prácticas de arquitectura moderna. Me especializo en la construcción de APIs consistentes y seguras que garantizan una comunicación eficiente entre el frontend y el backend, así como con servicios externos. Además, diseño arquitecturas limpias basadas en principios SOLID y patrones modernos de desarrollo para facilitar la mantenibilidad del sistema, colaborando estrechamente con los equipos de producto para alinear los entregables técnicos con las metas estratégicas del negocio.',
+    desc: 'Lidero el desarrollo de aplicaciones web de extremo a extremo con Python/Django y React/TypeScript, diseñando arquitecturas modulares bajo principios SOLID para asegurar escalabilidad y mantenibilidad. Construyo APIs y servicios backend robustos con foco en seguridad, autenticación y comunicación eficiente. Reduje en un 30% los tiempos de respuesta del servidor optimizando consultas complejas y base de datos, colaborando con los equipos de producto para alinear los entregables técnicos con los objetivos estratégicos del negocio.',
     stack: 'React, TypeScript, Tailwind, SCSS, Webpack, Django, Python, PostgreSQL, Zustand, Redux, Jest, React Testing Library, Git, Jira, Bitbucket',
   },
   {
-    company: 'Consultoría / Proyectos Independientes',
+    company: 'Freelance',
     role: 'Desarrollador Fullstack Ssr',
     period: 'Octubre 2025 – Abril 2026',
-    desc: 'Como Desarrollador Fullstack Ssr independiente, diseñé e implementé productos de software completos y APIs escalables con Node.js y Express bajo principios de arquitectura limpia. Construí aplicaciones responsivas y optimizadas con React, Next.js y TypeScript, reduciendo tiempos de carga inicial mediante code splitting y optimización de bundlers. Colaboré de cerca con clientes y stakeholders para traducir necesidades de negocio en requerimientos técnicos, automatizando despliegues con CI/CD (GitHub Actions) y asegurando soluciones robustas, mantenibles y de alta calidad.',
+    desc: 'Diseñé e implementé productos de software completos, conectando servicios backend en Node.js/Express con interfaces interactivas y responsivas en React/Next.js y TypeScript. Optimicé el rendimiento del frontend logrando reducir los tiempos de carga inicial un 35% mediante code splitting y carga diferida. Además, automaticé despliegues e integración continua con GitHub Actions y utilicé estratégicamente herramientas de IA para acelerar el desarrollo y la cobertura de pruebas unitarias.',
     stack:
       'React, Next.js, TypeScript, Tailwind, SCSS, Shadcn/UI, Webpack, Node.js, Express, PostgreSQL, MySQL, MongoDB, Zustand, Redux, WebSockets, Jest, React Testing Library, Docker, GitHub Actions, Vercel, Netlify, Git',
   },
@@ -24,15 +24,15 @@ const experiences = [
     company: 'Dinamicapps S.A.S',
     role: 'Desarrollador Fullstack Ssr',
     period: 'Junio 2025 – Septiembre 2025',
-    desc: 'En Dinamicapps S.A.S, colaboré en el desarrollo fullstack de plataformas web corporativas de alto rendimiento combinando React y Next.js en el frontend con ASP.NET Core (C#) en el backend. Diseñé e implementé interfaces dinámicas utilizando Shadcn/UI y Tailwind CSS, bajo rigurosos estándares de accesibilidad y diseño responsivo. Para optimizar el flujo de datos y la velocidad, gestioné el estado global con Zustand y apliqué técnicas de carga diferida (lazy loading), reduciendo drásticamente los tiempos de carga inicial y mejorando la experiencia del usuario. También integré APIs de inteligencia artificial y utilicé asistentes de IA para acelerar la documentación y la cobertura de pruebas unitarias.',
+    desc: 'Desarrollé plataformas web corporativas de alto rendimiento integrando robustos servicios en ASP.NET Core (C#) con interfaces accesibles y layouts complejos en React, Next.js y Tailwind CSS. Implementé una gestión de estado global eficiente con Zustand que redujo re-renders innecesarios en el cliente, optimicé los tiempos de carga inicial medidos en Lighthouse mediante carga diferida, e integré APIs de Inteligencia Artificial para automatizar funcionalidades y la documentación técnica.',
     stack:
-      'React, Next.js, TypeScript, Shadcn/UI, Tailwind CSS, CSS Grid, Flexbox, Zustand, WebSockets, OpenAI API, Vite, Storybook, Jest, React Testing Library, GitHub Actions, Bitbucket Pipelines, HTML5, SCSS, Git',
+      'React, Next.js, TypeScript, Shadcn/UI, Tailwind CSS, Zustand, ASP.NET Core, C#, WebSockets, OpenAI API, Vite, Storybook, Jest, React Testing Library, GitHub Actions, Bitbucket Pipelines, SCSS, Git',
   },
   {
     company: 'Partikle S.A.S',
     role: 'Desarrollador Frontend Jr',
     period: 'Noviembre 2023 – Mayo 2025',
-    desc: 'En mi rol inicial como Desarrollador Frontend Jr en Partikle S.A.S, creé interfaces de usuario utilizando React, TypeScript y Material-UI con la metodología BEM y SASS. Participé activamente en la refactorización de módulos legacy aplicando principios SOLID y Atomic Design para mejorar la mantenibilidad de la plataforma. Adicionalmente, colaboré en la migración de la gestión de estado hacia Redux y Zustand, integré endpoints desarrollados en Node.js/Express, e incrementé la confiabilidad de la aplicación mediante la implementación de pruebas unitarias con Jest y React Testing Library superando el 75% de cobertura en componentes críticos.',
+    desc: 'Desarrollé interfaces de usuario accesibles utilizando React, TypeScript y Material UI. Participé activamente en la refactorización de módulos heredados aplicando patrones de diseño y principios SOLID para mejorar la mantenibilidad del sistema. Colaboré en la integración de APIs REST, el desarrollo de endpoints en Node.js/Express y la migración de la gestión de estado global a Zustand/Redux, elevando la confiabilidad con pruebas en Jest y logrando una cobertura del 75%+ en componentes críticos.',
     stack:
       'React, TypeScript, Zustand, Redux, Material-UI, Node.js, Express.js, SASS, CSS Grid, Flexbox, HTML5, WebSockets, Webpack, Jest, React Testing Library, Storybook, Bitbucket Pipelines, Azure DevOps, Jira, Git',
   },
