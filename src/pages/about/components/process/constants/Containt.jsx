@@ -6,14 +6,14 @@ const containt = [
     bigTitle: 'Ciclo de Desarrollo',
     desc: [
       <div className="p-l">
-        Abordo el desarrollo frontend con un enfoque en la creación de aplicaciones web visualmente impactantes, intuitivas y eficientes. Cada proyecto sigue un plan metódico para asegurar que supere
-        los estándares de calidad y rendimiento.
+        Abordo el desarrollo de software full stack con un enfoque integral, conectando arquitecturas backend de alto rendimiento con interfaces de usuario excepcionales. Cada proyecto sigue un ciclo
+        de vida metódico para asegurar que supere los estándares de escalabilidad, seguridad y rendimiento.
       </div>,
     ],
     descMobile: [
       <div className="p-l">
-        Abordo el desarrollo frontend con un enfoque en la creación de aplicaciones web visualmente impactantes, intuitivas y eficientes. Cada proyecto sigue un plan metódico para asegurar que supere
-        los estándares de calidad y rendimiento.
+        Abordo el desarrollo de software full stack con un enfoque integral, conectando arquitecturas backend de alto rendimiento con interfaces de usuario excepcionales. Cada proyecto sigue un ciclo
+        de vida metódico para asegurar que supere los estándares de escalabilidad, seguridad y rendimiento.
       </div>,
     ],
     options: [
@@ -30,24 +30,24 @@ const containt = [
         desc: 'Diseñar interfaces intuitivas y atractivas centradas en la experiencia de usuario',
       },
       {
-        title: 'Desarrollo',
-        desc: 'Convertir diseños en código estructurado y mantenible con React, TypeScript y CSS semántico',
+        title: 'Desarrollo Full Stack',
+        desc: 'Escribir código escalable tanto para el backend (APIs y bases de datos) como para el frontend (interfaces dinámicas y responsivas)',
       },
       {
-        title: 'Integración',
-        desc: 'Conectar el frontend con servicios backend, bases de datos y APIs en tiempo real',
+        title: 'Seguridad e Integración',
+        desc: 'Diseñar e integrar APIs robustas, flujos de datos en tiempo real (WebSockets) y autenticación segura (OAuth/Auth)',
       },
       {
-        title: 'Pruebas y QA',
-        desc: 'Realizar pruebas exhaustivas para verificar la compatibilidad en múltiples dispositivos y navegadores',
+        title: 'Pruebas y QA Integral',
+        desc: 'Implementar pruebas unitarias y de integración (Jest, RTL, pytest) tanto en cliente como en servidor',
       },
       {
-        title: 'Optimización',
-        desc: 'Optimizar el código para velocidad, rendimiento web (Web Vitals) y SEO técnico',
+        title: 'Rendimiento y Escalabilidad',
+        desc: 'Optimizar consultas de base de datos, tiempos de respuesta de APIs y rendimiento web general (Core Web Vitals)',
       },
       {
-        title: 'Despliegue',
-        desc: 'Publicar el producto final en entornos de producción listos para su uso',
+        title: 'Despliegue y Cloud (CI/CD)',
+        desc: 'Automatizar la compilación y despliegue del producto final mediante pipelines de CI/CD e infraestructuras cloud',
       },
       {
         title: 'Mantenimiento y Soporte',

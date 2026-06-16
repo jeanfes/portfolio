@@ -9,7 +9,7 @@ const footerLinks = [
   },
   {
     title: 'Twitter',
-    href: 'https://twitter.com/JEANFES10',
+    href: 'https://x.com/JeanEscoba24818',
   },
 ];
 export default footerLinks;

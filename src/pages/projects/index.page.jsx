@@ -18,15 +18,15 @@ import { useWindowSize } from '@darkroom.engineering/hamo';
 const seo = {
   title: 'Jean Escobar - Proyectos',
   description:
-    'Explora mi portafolio para ver una variedad de proyectos de desarrollo frontend, desde sitios web interactivos hasta aplicaciones móviles. Conoce mi trabajo con React, Next.js, React Native, Kotlin y más.',
+    'Explora mi portafolio para ver una variedad de proyectos de desarrollo full stack, que van desde aplicaciones web completas y APIs de alto rendimiento hasta soluciones móviles y de escritorio.',
   keywords: [
     'Proyectos Jean Escobar',
     'Muestra de portafolio',
-    'Ejemplos de desarrollo frontend',
+    'Ejemplos de desarrollo full stack',
     'Portafolio web responsivo',
-    'Aplicaciones de React',
-    'Trabajo con React Native',
-    'Aplicaciones móviles Android Kotlin',
+    'Aplicaciones de React y Node.js',
+    'APIs con Django y Python',
+    'Aplicaciones móviles y backend',
   ],
 };
 

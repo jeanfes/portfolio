@@ -63,4 +63,4 @@ Este proyecto es de código abierto bajo la **Licencia MIT (con atribución requ
 - 📧 Correo: [jeanescobar10@hotmail.com](mailto:jeanescobar10@hotmail.com)
 - 💼 LinkedIn: [linkedin.com/in/jeanescobar10](https://www.linkedin.com/in/jeanescobar10/)
 - 🌐 GitHub: [@jeanfes](https://github.com/jeanfes)
-- 🐦 Twitter: [@JEANFES10](https://twitter.com/JEANFES10)
+- 🐦 Twitter: [@JeanEscoba24818](https://x.com/JeanEscoba24818)

@@ -232,12 +232,13 @@ function Home() {
     <section ref={rootRef} className={clsx(styles.root)}>
       <div className={clsx(styles.topContainer, 'layout-grid-inner')}>
         <div className={styles.leftContainer}>
-          <h2 className="h2">Interfaces</h2>
-          <h2 className={clsx('h2', 'bold')}>Dinámicas y Premium</h2>
+          <h2 className="h2">Aplicaciones</h2>
+          <h2 className={clsx('h2', 'bold')}>Robustas y Premium</h2>
         </div>
         {!isMobile && (
           <h6 className={clsx('h6', styles.rightContainer)}>
-            Como Ingeniero de Sistemas y Desarrollador Frontend, construyo aplicaciones web y móviles de alto rendimiento, combinando lógica sólida con un diseño visual premium y pulido.
+            Como Ingeniero de Sistemas y Desarrollador Full Stack, diseño y construyo soluciones web y móviles escalables de extremo a extremo, integrando arquitecturas backend robustas con
+            experiencias digitales fluidas y de alto rendimiento.
           </h6>
         )}
       </div>
@@ -259,7 +260,8 @@ function Home() {
         <div className={styles.rightContainerMobile}>
           <h6 className="h6">
             {' '}
-            Como Ingeniero de Sistemas y Desarrollador Frontend, construyo aplicaciones web y móviles de alto rendimiento, combinando lógica sólida con un diseño visual premium y pulido.
+            Como Ingeniero de Sistemas y Desarrollador Full Stack, diseño y construyo soluciones web y móviles escalables de extremo a extremo, integrando arquitecturas backend robustas con
+            experiencias digitales fluidas y de alto rendimiento.
           </h6>
         </div>
       )}

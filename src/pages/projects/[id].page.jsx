@@ -61,13 +61,13 @@ function Page({ id }) {
   const seo = useMemo(
     () => ({
       title: `Jean Escobar - Proyecto ${currentProject.title}`,
-      description: `Detalles del proyecto ${currentProject.title}, enfocado en ${currentProject.company}, donde lideré y mejoré la interfaz interactiva, optimizando el rendimiento y garantizando un diseño responsivo de alto nivel.`,
+      description: `Detalles del proyecto ${currentProject.title}, desarrollado con ${currentProject.company}, donde lideré el diseño, desarrollo e integración de la solución de extremo a extremo, optimizando el rendimiento, la seguridad y la arquitectura general.`,
       keywords: [
         `proyecto ${currentProject.title}`,
         `desarrollo ${currentProject.title}`,
         `tecnología ${currentProject.company}`,
         `Jean Escobar ${currentProject.title}`,
-        `Frontend ${currentProject.title}`,
+        `Fullstack ${currentProject.title}`,
         `Diseño responsivo ${currentProject.title}`,
         `Experiencia de usuario ${currentProject.title}`,
       ],

@@ -42,7 +42,7 @@ function About() {
 
   const renderImageContainer = () => (
     <div className={styles.imageContainer}>
-      <Image priority src="/Image.png" sizes="100%" fill alt="Jean Escobar" />
+      <Image priority src="/imagen2.png" sizes="100%" fill alt="Jean Escobar" />
     </div>
   );
 
@@ -68,18 +68,19 @@ function About() {
         <div className={clsx(styles.descWrapperBottom)}>
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
-              <h6 className="h6">Soy un Ingeniero de Sistemas especializado en desarrollo Frontend</h6>
-              <h6 className="h6">con React, TypeScript y React Native. Construyo interfaces</h6>
-              <h6 className="h6">accesibles y responsivas, optimizo el rendimiento y trabajo en equipos</h6>
-              <h6 className="h6">ágiles entregando features con un fuerte enfoque en UX y diseño</h6>
-              <h6 className="h6">interactivo.</h6>
+              <h6 className="h6">
+                Soy un Ingeniero de Sistemas y Desarrollador Full Stack apasionado por diseñar e implementar arquitecturas de software escalables y eficientes. Con experiencia en metodologías ágiles y
+                patrones de diseño modernos, construyo APIs robustas y seguras (Node.js, Python/Django, ASP.NET Core) junto con aplicaciones web y móviles intuitivas (React, Next.js, React Native),
+                enfocándome en el rendimiento de extremo a extremo y en la entrega de valor de negocio.
+              </h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
               <h6 className="h6">
                 {' '}
-                Soy un Ingeniero de Sistemas especializado en desarrollo Frontend con React, TypeScript y React Native. Construyo interfaces accesibles y responsivas, optimizo el rendimiento y trabajo
-                en equipos ágiles entregando features con un fuerte enfoque en UX y diseño interactivo.
+                Soy un Ingeniero de Sistemas y Desarrollador Full Stack apasionado por diseñar e implementar arquitecturas de software escalables y eficientes. Con experiencia en metodologías ágiles y
+                patrones de diseño modernos, construyo APIs robustas y seguras (Node.js, Python/Django, ASP.NET Core) junto con aplicaciones web y móviles intuitivas (React, Next.js, React Native),
+                enfocándome en el rendimiento de extremo a extremo y en la entrega de valor de negocio.
               </h6>
             </AppearTitle>
           )}

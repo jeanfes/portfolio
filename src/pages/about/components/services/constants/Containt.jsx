@@ -5,24 +5,28 @@ const containt = [
     bigTitle: 'Ingeniería de Software',
     desc: [
       <div className="p-l">
-        Con un enfoque en la innovación y la eficiencia, desarrollo soluciones robustas que cumplen con tus objetivos de negocio. Desde el frontend hasta el backend, utilizo tecnologías modernas para
-        entregar software escalable y mantenible.
+        Con un enfoque en la innovación y la eficiencia, desarrollo soluciones robustas que cumplen con tus objetivos de negocio. Desde el diseño de la arquitectura del backend hasta el frontend de
+        alta fidelidad, utilizo tecnologías modernas para entregar software escalable y mantenible.
       </div>,
     ],
     descMobile: [
       <div className="p-l">
-        Con un enfoque en la innovación y la eficiencia, desarrollo soluciones robustas que cumplen con tus objetivos de negocio. Desde el frontend hasta el backend, utilizo tecnologías modernas para
-        entregar software escalable y mantenible.
+        Con un enfoque en la innovación y la eficiencia, desarrollo soluciones robustas que cumplen con tus objetivos de negocio. Desde el diseño de la arquitectura del backend hasta el frontend de
+        alta fidelidad, utilizo tecnologías modernas para entregar software escalable y mantenible.
       </div>,
     ],
     options: [
       {
-        title: 'Desarrollo Web',
-        desc: 'Crear sitios web dinámicos y responsivos que ofrecen una experiencia de usuario fluida',
+        title: 'Aplicaciones Web Full Stack',
+        desc: 'Desarrollar aplicaciones dinámicas conectando un frontend interactivo con un backend robusto de alto rendimiento',
       },
       {
-        title: 'Desarrollo de Landing Pages',
-        desc: 'Diseñar y desarrollar páginas de destino de alta conversión adaptadas a tus objetivos de marketing',
+        title: 'Desarrollo de APIs y Backend',
+        desc: 'Diseñar y construir APIs RESTful y GraphQL robustas, seguras y escalables usando Node.js, Python/Django y ASP.NET Core',
+      },
+      {
+        title: 'Modelado y Optimización de Bases de Datos',
+        desc: 'Diseñar esquemas de datos relacionales y no relacionales eficientes utilizando PostgreSQL, MySQL y MongoDB',
       },
       {
         title: 'Creación de Sitios Web 3D',
@@ -41,12 +45,8 @@ const containt = [
         desc: 'Desarrollar plataformas de e-commerce a medida adaptadas a las necesidades de tu negocio',
       },
       {
-        title: 'Desarrollo de CMS',
-        desc: 'Implementar sistemas de gestión de contenido flexibles y fáciles de usar para la gestión del sitio',
-      },
-      {
-        title: 'Soluciones Cloud',
-        desc: 'Aprovechar la nube para optimizar el rendimiento, la escalabilidad y la fiabilidad',
+        title: 'Arquitecturas Cloud y Serverless',
+        desc: 'Desplegar e integrar aplicaciones con proveedores como Supabase, AWS y Vercel, optimizando rendimiento y escalabilidad',
       },
       {
         title: 'QA y Testing',

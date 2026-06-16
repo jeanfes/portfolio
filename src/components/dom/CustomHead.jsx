@@ -13,7 +13,7 @@ const getSchema = () => ({
   url: SITE_URL,
   image: OG_IMAGE,
   email: 'mailto:jeanescobar10@hotmail.com',
-  sameAs: ['https://www.linkedin.com/in/jeanescobar10/', 'https://github.com/jeanfes', 'https://twitter.com/JEANFES10'],
+  sameAs: ['https://www.linkedin.com/in/jeanescobar10/', 'https://github.com/jeanfes', 'https://x.com/JeanEscoba24818'],
   alumniOf: [
     { '@type': 'Organization', name: 'Dinamicapps S.A.S' },
     { '@type': 'Organization', name: 'Soluciones Americana S.A.S' },

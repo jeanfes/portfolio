@@ -13,18 +13,18 @@ const experiences = [
     stack: 'React, TypeScript, Tailwind, SCSS, Webpack, Django, Python, PostgreSQL, Zustand, Redux, Jest, React Testing Library, Git, Jira, Bitbucket',
   },
   {
-    company: 'Freelance',
+    company: 'Consultoría / Proyectos Independientes',
     role: 'Desarrollador Fullstack Ssr',
     period: 'Octubre 2025 – Abril 2026',
-    desc: 'Durante mi etapa como Desarrollador Freelance Ssr, construí soluciones a medida de alta calidad empleando React, Next.js y TypeScript. Implementé interfaces responsivas, accesibles y optimizadas usando Tailwind CSS, Flexbox y CSS Grid. Desarrollé APIs RESTful eficientes con Node.js y Express bajo principios de arquitectura limpia, y estructuré el frontend siguiendo Atomic Design y SOLID para maximizar la reutilización de código. Adicionalmente, logré optimizaciones notables de rendimiento mediante técnicas avanzadas como code splitting, lazy loading y optimización de bundlers, integrando herramientas de IA para acelerar de manera segura los tiempos de entrega sin comprometer la calidad del software.',
+    desc: 'Como Desarrollador Fullstack Ssr independiente, diseñé e implementé productos de software completos y APIs escalables con Node.js y Express bajo principios de arquitectura limpia. Construí aplicaciones responsivas y optimizadas con React, Next.js y TypeScript, reduciendo tiempos de carga inicial mediante code splitting y optimización de bundlers. Colaboré de cerca con clientes y stakeholders para traducir necesidades de negocio en requerimientos técnicos, automatizando despliegues con CI/CD (GitHub Actions) y asegurando soluciones robustas, mantenibles y de alta calidad.',
     stack:
       'React, Next.js, TypeScript, Tailwind, SCSS, Shadcn/UI, Webpack, Node.js, Express, PostgreSQL, MySQL, MongoDB, Zustand, Redux, WebSockets, Jest, React Testing Library, Docker, GitHub Actions, Vercel, Netlify, Git',
   },
   {
     company: 'Dinamicapps S.A.S',
-    role: 'Desarrollador FullStack Ssr',
+    role: 'Desarrollador Fullstack Ssr',
     period: 'Junio 2025 – Septiembre 2025',
-    desc: 'En Dinamicapps S.A.S, me encargué del desarrollo fullstack combinando React con ASP.NET Core en C# para crear plataformas web de alto rendimiento. Implementé interfaces altamente interactivas usando Next.js, Shadcn/UI y Tailwind CSS, garantizando rigurosos estándares de accesibilidad y diseño responsivo. Para optimizar el rendimiento y la eficiencia del flujo de datos, gestioné el estado global con Zustand y apliqué técnicas de carga diferida (lazy loading), reduciendo drásticamente los tiempos de carga inicial. También integré APIs de inteligencia artificial y utilicé asistentes de IA para acelerar la documentación y la cobertura de pruebas unitarias.',
+    desc: 'En Dinamicapps S.A.S, colaboré en el desarrollo fullstack de plataformas web corporativas de alto rendimiento combinando React y Next.js en el frontend con ASP.NET Core (C#) en el backend. Diseñé e implementé interfaces dinámicas utilizando Shadcn/UI y Tailwind CSS, bajo rigurosos estándares de accesibilidad y diseño responsivo. Para optimizar el flujo de datos y la velocidad, gestioné el estado global con Zustand y apliqué técnicas de carga diferida (lazy loading), reduciendo drásticamente los tiempos de carga inicial y mejorando la experiencia del usuario. También integré APIs de inteligencia artificial y utilicé asistentes de IA para acelerar la documentación y la cobertura de pruebas unitarias.',
     stack:
       'React, Next.js, TypeScript, Shadcn/UI, Tailwind CSS, CSS Grid, Flexbox, Zustand, WebSockets, OpenAI API, Vite, Storybook, Jest, React Testing Library, GitHub Actions, Bitbucket Pipelines, HTML5, SCSS, Git',
   },

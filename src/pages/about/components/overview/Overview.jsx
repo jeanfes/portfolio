@@ -23,27 +23,26 @@ function Overview() {
       <div className={styles.desc}>
         {!isMobile ? (
           <AppearTitle key="desktop-overview">
-            <h6 className="h6">¡Hola! Soy Ingeniero de Sistemas y Desarrollador Frontend graduado de la</h6>
+            <h6 className="h6">¡Hola! Soy Ingeniero de Sistemas y Desarrollador Full Stack graduado de la</h6>
             <h6 className="h6">Universidad Simón Bolívar en Barranquilla, Colombia. Me apasiona dar vida a</h6>
             <h6 className="h6">ideas digitales robustas, dinámicas y eficientes.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>Cuando no estoy programando, dedico mi tiempo libre a ver películas de tecnología,</h6>
-            <h6 className="h6">disfrutar de una buena lasaña (mi comida favorita) y jugar videojuegos como Wild Rift.</h6>
-            <h6 className="h6">Me considero un desarrollador proactivo, curioso, adaptable y en constante crecimiento,</h6>
-            <h6 className="h6">actualmente mejorando mi nivel de inglés (nivel A2).</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>¡Estoy emocionado por colaborar y crear grandes soluciones juntos!</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>Cuando no estoy programando, disfruto de ver películas de tecnología, jugar videojuegos y compartir buenas conversaciones.</h6>
+            <h6 className="h6">Me considero un profesional proactivo, con alta capacidad de adaptación y aprendizaje continuo,</h6>
+            <h6 className="h6">enfocado en el crecimiento constante y en expandir mis competencias técnicas y de comunicación.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>¡Estoy emocionado por integrarme a nuevos proyectos y aportar valor a tu equipo!</h6>
             <h6 className={clsx(styles.paddingTop, 'h6')}>Jean Escobar.</h6>
           </AppearTitle>
         ) : (
           <AppearTitle key="mobile-overview">
             <h6 className="h6">
-              ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Frontend graduado de la Universidad Simón Bolívar en Barranquilla, Colombia. Me apasiona dar vida a ideas digitales robustas, dinámicas y
-              eficientes.
+              ¡Hola! Soy Ingeniero de Sistemas y Desarrollador Full Stack graduado de la Universidad Simón Bolívar en Barranquilla, Colombia. Me apasiona dar vida a ideas digitales robustas, dinámicas
+              y eficientes.
             </h6>
             <h6 className={clsx(styles.paddingTop, 'h6')}>
-              Cuando no estoy programando, dedico mi tiempo libre a ver películas de tecnología, disfrutar de una buena lasaña (mi comida favorita) y jugar videojuegos como Wild Rift. Me considero un
-              desarrollador proactivo, curioso, adaptable y en constante crecimiento, actualmente mejorando mi nivel de inglés (nivel A2).
+              Cuando no estoy programando, disfruto de películas de tecnología, los videojuegos y compartir buenas conversaciones. Me considero un profesional proactivo, con alta capacidad de
+              adaptación, aprendizaje continuo y enfocado en expandir mis competencias técnicas y de comunicación.
             </h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>¡Estoy emocionado por colaborar y crear grandes soluciones juntos!</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>¡Estoy emocionado por integrarme a nuevos proyectos y aportar valor a tu equipo!</h6>
             <h6 className={clsx(styles.paddingTop, 'h6')}>Jean Escobar.</h6>
           </AppearTitle>
         )}
