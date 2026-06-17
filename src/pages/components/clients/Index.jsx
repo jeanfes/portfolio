@@ -136,27 +136,24 @@ function Clients() {
         </div>
       ) : null}
       {!isMobile ? (
-        <>
-          <div
-            ref={(el) => {
-              textRefs.current[1] = el;
-            }}
-            className={styles.secondText}
-          >
-            <AppearTitle>
-              <h6 className="h6">2025 - 2026</h6>
-            </AppearTitle>
-            <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Freelance</h4>
-            </AppearTitle>
-            <AppearTitle>
-              <div className="p-l">
-                Desarrollador Fullstack Ssr. Diseñé e implementé productos de software completos desde el backend con Node.js/Express hasta la interfaz responsiva en React/Next.js y TypeScript.
-              </div>
-            </AppearTitle>
-          </div>
-          <div className={styles.fourthEmpty} />
-        </>
+        <div
+          ref={(el) => {
+            textRefs.current[1] = el;
+          }}
+          className={styles.secondText}
+        >
+          <AppearTitle>
+            <h6 className="h6">2025 - 2026</h6>
+          </AppearTitle>
+          <AppearTitle>
+            <h4 className={clsx('h4', 'bold', styles.title)}>Freelance</h4>
+          </AppearTitle>
+          <AppearTitle>
+            <div className="p-l">
+              Desarrollador Fullstack Ssr. Diseñé e implementé productos de software completos desde el backend con Node.js/Express hasta la interfaz responsiva en React/Next.js and TypeScript.
+            </div>
+          </AppearTitle>
+        </div>
       ) : null}
 
       {/* ELEMENTO 3: Dinamicapps S.A.S */}
@@ -170,7 +167,7 @@ function Clients() {
         ref={(el) => {
           badgeRefs.current[2] = el;
         }}
-        className={styles.third}
+        className={styles.fourth}
       >
         <Badge name="company1" />
       </div>
@@ -189,7 +186,7 @@ function Clients() {
       ) : null}
       {!isMobile ? (
         <>
-          <div className={styles.fifthEmpty} />
+          <div className={styles.firstEmpty} />
           <div
             ref={(el) => {
               textRefs.current[2] = el;
@@ -212,6 +209,7 @@ function Clients() {
       ) : null}
 
       {/* ELEMENTO 4: Partikle S.A.S (Frontend Jr) */}
+      {!isMobile ? <div className={styles.secondEmpty} /> : null}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
@@ -222,7 +220,7 @@ function Clients() {
         ref={(el) => {
           badgeRefs.current[3] = el;
         }}
-        className={styles.first}
+        className={styles.fifth}
       >
         <Badge name="company2" />
       </div>
@@ -240,31 +238,27 @@ function Clients() {
         </div>
       ) : null}
       {!isMobile ? (
-        <>
-          <div className={styles.firstEmpty} />
-          <div
-            ref={(el) => {
-              textRefs.current[3] = el;
-            }}
-            className={styles.fourthText}
-          >
-            <AppearTitle>
-              <h6 className="h6">2023 - 2025</h6>
-            </AppearTitle>
-            <AppearTitle>
-              <h4 className={clsx('h4', 'bold', styles.title)}>Partikle S.A.S</h4>
-            </AppearTitle>
-            <AppearTitle>
-              <div className="p-l">
-                Desarrollador Frontend Jr. Desarrollé interfaces accesibles en React/TypeScript y Material UI, migrando estados a Zustand/Redux y logrando cobertura del 75%+ de pruebas con Jest.
-              </div>
-            </AppearTitle>
-          </div>
-        </>
+        <div
+          ref={(el) => {
+            textRefs.current[3] = el;
+          }}
+          className={styles.fourthText}
+        >
+          <AppearTitle>
+            <h6 className="h6">2023 - 2025</h6>
+          </AppearTitle>
+          <AppearTitle>
+            <h4 className={clsx('h4', 'bold', styles.title)}>Partikle S.A.S</h4>
+          </AppearTitle>
+          <AppearTitle>
+            <div className="p-l">
+              Desarrollador Frontend Jr. Desarrollé interfaces accesibles en React/TypeScript y Material UI, migrando estados a Zustand/Redux y logrando cobertura del 75%+ de pruebas con Jest.
+            </div>
+          </AppearTitle>
+        </div>
       ) : null}
 
       {/* ELEMENTO 5: Universidad Simón Bolívar */}
-      {!isMobile ? <div className={styles.secondEmpty} /> : null}
       {isMobile ? <div className={styles.mobileEmpty} /> : null}
       {isMobile ? (
         <div className={styles.mobileCount}>
@@ -275,7 +269,7 @@ function Clients() {
         ref={(el) => {
           badgeRefs.current[4] = el;
         }}
-        className={styles.second}
+        className={styles.fourth}
       >
         <Badge name="company3" />
       </div>
@@ -295,6 +289,7 @@ function Clients() {
       ) : null}
       {!isMobile ? (
         <>
+          <div className={styles.firstEmpty} />
           <div
             ref={(el) => {
               textRefs.current[4] = el;
@@ -314,7 +309,6 @@ function Clients() {
               </div>
             </AppearTitle>
           </div>
-          <div className={styles.fourthEmpty} />
         </>
       ) : null}
     </section>
