@@ -77,7 +77,9 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador Fullstack Ssr. Lidero el desarrollo de aplicaciones web de extremo a extremo con Python/Django y React/TypeScript, estructurando arquitecturas modulares basadas en SOLID.
+              Desarrollador Fullstack Ssr. Lidero el desarrollo de aplicaciones web complejas de extremo a extremo, diseñando arquitecturas limpias basadas en principios SOLID y patrones modernos.
+              Construyo servicios backend robustos y APIs eficientes priorizando la consistencia, seguridad y el desacoplamiento, mientras integro de manera fluida el frontend para garantizar flujos
+              de información sólidos y una excelente experiencia de usuario.
             </div>
           </AppearTitle>
         </div>
@@ -99,7 +101,9 @@ function Clients() {
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Desarrollador Fullstack Ssr. Lidero el desarrollo de aplicaciones web de extremo a extremo con Python/Django y React/TypeScript, estructurando arquitecturas modulares basadas en SOLID.
+                Desarrollador Fullstack Ssr. Lidero el desarrollo de aplicaciones web complejas de extremo a extremo, diseñando arquitecturas limpias basadas en principios SOLID y patrones modernos.
+                Construyo servicios backend robustos y APIs eficientes priorizando la consistencia, seguridad y el desacoplamiento, mientras integro de manera fluida el frontend para garantizar flujos
+                de información sólidos y una excelente experiencia de usuario.
               </div>
             </AppearTitle>
           </div>
@@ -130,7 +134,9 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador Fullstack Ssr. Diseñé e implementé productos de software completos desde el backend con Node.js/Express hasta la interfaz responsiva en React/Next.js y TypeScript.
+              Desarrollador Fullstack Ssr. Diseñé y desarrollé productos de software completos, implementando interfaces de usuario altamente responsivas y accesibles bajo metodologías de diseño
+              modular. Diseñé e integré APIs REST eficientes con un fuerte enfoque en la separación de responsabilidades, optimizando el rendimiento de carga del cliente mediante técnicas avanzadas y
+              potenciando la entrega de código de calidad mediante herramientas avanzadas de automatización.
             </div>
           </AppearTitle>
         </div>
@@ -150,7 +156,9 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador Fullstack Ssr. Diseñé e implementé productos de software completos desde el backend con Node.js/Express hasta la interfaz responsiva en React/Next.js and TypeScript.
+              Desarrollador Fullstack Ssr. Diseñé y desarrollé productos de software completos, implementando interfaces de usuario altamente responsivas y accesibles bajo metodologías de diseño
+              modular. Diseñé e integré APIs REST eficientes con un fuerte enfoque en la separación de responsabilidades, optimizando el rendimiento de carga del cliente mediante técnicas avanzadas y
+              potenciando la entrega de código de calidad mediante herramientas avanzadas de automatización.
             </div>
           </AppearTitle>
         </div>
@@ -179,7 +187,9 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador Fullstack Ssr. Desarrollé plataformas web corporativas integrando robustos servicios backend en ASP.NET Core (C#) con interfaces accesibles en React/Next.js.
+              Desarrollador Fullstack Ssr. Construí soluciones de software integrales con APIs REST robustas, implementando esquemas de autenticación y control de errores rigurosos. Desarrollé
+              interfaces de alta interactividad con foco estricto en la accesibilidad web (a11y) y layouts responsivos, optimizando la gestión de estado para minimizar el procesamiento en el navegador
+              y acelerando los tiempos de carga inicial mediante división de código.
             </div>
           </AppearTitle>
         </div>
@@ -201,7 +211,9 @@ function Clients() {
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Desarrollador Fullstack Ssr. Desarrollé plataformas web corporativas integrando robustos servicios backend en ASP.NET Core (C#) con interfaces accesibles en React/Next.js.
+                Desarrollador Fullstack Ssr. Construí soluciones de software integrales con APIs REST robustas, implementando esquemas de autenticación y control de errores rigurosos. Desarrollé
+                interfaces de alta interactividad con foco estricto en la accesibilidad web (a11y) y layouts responsivos, optimizando la gestión de estado para minimizar el procesamiento en el
+                navegador y acelerando los tiempos de carga inicial mediante división de código.
               </div>
             </AppearTitle>
           </div>
@@ -232,7 +244,9 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador Frontend Jr. Desarrollé interfaces accesibles en React/TypeScript y Material UI, migrando estados a Zustand/Redux y logrando cobertura del 75%+ de pruebas con Jest.
+              Desarrollador Frontend Jr. Diseñé e implementé interfaces de usuario responsivas y accesibles, liderando la refactorización de módulos legados hacia componentes modulares y escalables
+              basados en SOLID. Colaboré en la integración con servicios backend y en la migración de arquitecturas de estado global, asegurando la calidad del código mediante la implementación de
+              pruebas unitarias con coberturas superiores al 75% en flujos críticos.
             </div>
           </AppearTitle>
         </div>
@@ -252,7 +266,9 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Desarrollador Frontend Jr. Desarrollé interfaces accesibles en React/TypeScript y Material UI, migrando estados a Zustand/Redux y logrando cobertura del 75%+ de pruebas con Jest.
+              Desarrollador Frontend Jr. Diseñé e implementé interfaces de usuario responsivas y accesibles, liderando la refactorización de módulos legados hacia componentes modulares y escalables
+              basados en SOLID. Colaboré en la integración con servicios backend y en la migración de arquitecturas de estado global, asegurando la calidad del código mediante la implementación de
+              pruebas unitarias con coberturas superiores al 75% en flujos críticos.
             </div>
           </AppearTitle>
         </div>
@@ -281,8 +297,8 @@ function Clients() {
           </AppearTitle>
           <AppearTitle>
             <div className="p-l">
-              Ingeniería de Sistemas. Graduado de la Universidad Simón Bolívar. Sólida formación en fundamentos de ciencias de la computación, arquitectura de software, bases de datos y metodologías
-              ágiles de desarrollo.
+              Ingeniería de Sistemas. Graduado de la Universidad Simón Bolívar con una sólida formación en fundamentos de ciencias de la computación, diseño y arquitectura de software, bases de datos
+              y metodologías ágiles de desarrollo para la gestión y ejecución de proyectos de tecnología.
             </div>
           </AppearTitle>
         </div>
@@ -304,8 +320,8 @@ function Clients() {
             </AppearTitle>
             <AppearTitle>
               <div className="p-l">
-                Ingeniería de Sistemas. Graduado de la Universidad Simón Bolívar. Sólida formación en fundamentos de ciencias de la computación, arquitectura de software, bases de datos y metodologías
-                ágiles de desarrollo.
+                Ingeniería de Sistemas. Graduado de la Universidad Simón Bolívar con una sólida formación en fundamentos de ciencias de la computación, diseño y arquitectura de software, bases de
+                datos y metodologías ágiles de desarrollo para la gestión y ejecución de proyectos de tecnología.
               </div>
             </AppearTitle>
           </div>
