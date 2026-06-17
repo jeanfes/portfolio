@@ -1,5 +1,5 @@
 const useOpts = () => {
-  const isMobile = window.innerWidth < 812;
+  const isMobile = typeof window !== 'undefined' ? window.innerWidth < 812 : false;
   const OPTS = {
     intensity: 5,
     force: 1,

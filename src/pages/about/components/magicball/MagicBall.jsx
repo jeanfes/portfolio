@@ -4,7 +4,7 @@ import * as THREE from 'three';
 
 import { Environment, Sphere, Text, View, useTexture } from '@react-three/drei';
 import { createPortal, extend, useFrame } from '@react-three/fiber';
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 import PropTypes from 'prop-types';
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
@@ -42,6 +42,12 @@ function useRenderTargetTexture() {
       gl.setRenderTarget(null);
     }
   });
+
+  useEffect(() => {
+    return () => {
+      target?.dispose();
+    };
+  }, [target]);
 
   return { camera, mesh, scene, texture: target?.texture };
 }

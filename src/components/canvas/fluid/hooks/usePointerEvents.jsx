@@ -46,7 +46,8 @@ const usePointerEvents = (mainRef, size, force) => {
     return () => {
       element.removeEventListener('pointermove', handlePointerMove);
     };
-  }, [mainRef, size, force]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [mainRef.current, size, force]);
 
   return splatStack;
 };
