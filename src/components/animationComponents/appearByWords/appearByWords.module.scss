@@ -1,4 +1,9 @@
 .title {
+  .word {
+    display: inline-block;
+    white-space: nowrap;
+  }
+
   .char {
     display: inline-block;
     overflow: hidden;
@@ -8,7 +13,7 @@
   }
 
   &.visible {
-    > * {
+    .char {
       transition: 0.45s ease-in-out all;
       transition-delay: calc(50ms * var(--i));
       opacity: 1;
@@ -16,7 +21,7 @@
   }
 
   &:not(.visible) {
-    > * {
+    .char {
       opacity: 0;
       transform: translateY(20%);
     }

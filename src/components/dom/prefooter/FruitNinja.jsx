@@ -28,6 +28,9 @@ function Lighting() {
   );
 }
 
+// Time for a sticker to be launched, fall and leave the viewport
+const FRUIT_LIFETIME_MS = 8000;
+
 function useFruitSpawner(viewport, textures, slicedTextures, isMobile) {
   const [fruits, setFruits] = useState([]);
 
@@ -39,14 +42,21 @@ function useFruitSpawner(viewport, textures, slicedTextures, isMobile) {
         const width = viewport.width / 2 - 1;
 
         setFruits((prevFruits) => {
+          const now = Date.now();
           const newFruits = Array.from({ length: getRandomNumber(1, 6) }, (_, i) => {
             const randomX = getRandomNumber(width * -1, width);
             const randomImage = getRandomNumber(0, textures.length - 1);
 
-            return <Sticker key={`${Date.now()}-${i}`} positionX={randomX} image={textures[randomImage]} imageSliced={slicedTextures[randomImage]} />;
+            return {
+              spawnedAt: now,
+              element: <Sticker key={`${now}-${i}`} positionX={randomX} image={textures[randomImage]} imageSliced={slicedTextures[randomImage]} />,
+            };
           });
 
-          return [...prevFruits, ...newFruits];
+          // Drop stickers that already fell off-screen so rigid bodies and materials don't accumulate forever
+          const aliveFruits = prevFruits.filter((fruit) => now - fruit.spawnedAt < FRUIT_LIFETIME_MS);
+
+          return [...aliveFruits, ...newFruits];
         });
       },
       (isMobile ? 5 : 3) * 1000,
@@ -57,7 +67,7 @@ function useFruitSpawner(viewport, textures, slicedTextures, isMobile) {
     };
   }, [isMobile, slicedTextures, textures, viewport.width]);
 
-  return fruits;
+  return fruits.map((fruit) => fruit.element);
 }
 
 function FruitNinja() {

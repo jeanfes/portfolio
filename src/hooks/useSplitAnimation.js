@@ -6,7 +6,8 @@ const useSplitAnimation = (ref, styles) => {
   useIsomorphicLayoutEffect(() => {
     const ctx = gsap.context(() => {
       const splitted = new SplitType(ref.current, {
-        types: 'chars',
+        types: 'words,chars',
+        wordClass: styles.word,
         tagName: 'span',
         charClass: styles.char,
       });
