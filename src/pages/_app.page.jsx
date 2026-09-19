@@ -104,7 +104,6 @@ function MyApp({ Component, pageProps, router }) {
     () => (
       <Canvas
         gl={{
-          pixelRatio: 0.5,
           outputColorSpace: isAbout === false ? THREE.LinearSRGBColorSpace : THREE.SRGBColorSpace,
         }}
         style={{ zIndex: 0 }}

@@ -163,8 +163,7 @@ function Band({ maxSpeed = 50, minSpeed = 10, name, intersected }) {
   tag.repeat.set(1, 1);
   tag.wrapS = THREE.RepeatWrapping;
   tag.wrapT = THREE.RepeatWrapping;
-  tag.minFilter = THREE.LinearFilter;
-  tag.magFilter = THREE.LinearFilter;
+  tag.anisotropy = 16;
 
   return (
     <>

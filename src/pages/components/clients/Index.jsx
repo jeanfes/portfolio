@@ -177,7 +177,7 @@ function Clients() {
         }}
         className={styles.fourth}
       >
-        <Badge name="company1" />
+        <Badge name="company4" />
       </div>
       {isMobile ? <div className={styles.mobileEmptySecond} /> : null}
       {isMobile ? (
