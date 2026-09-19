@@ -16,7 +16,7 @@ El diseño visual se estructura en **tres capas principales**:
    Un mundo interactivo en 3D renderizado en tiempo real usando **React Three Fiber**, que sirve como base visual interactiva del sitio.
 
 2. **Capa de Contenido:**
-   Estructura minimalista y limpia que contiene la información del portafolio (proyectos como *Mirror*, *LiveNotes*, *Vibes*, sobre mí, y contacto). Diseñada para integrarse perfectamente con las animaciones.
+   Estructura minimalista y limpia que contiene la información del portafolio (proyectos como *Mirror* y *LiveNotes*, sobre mí, y contacto). Diseñada para integrarse perfectamente con las animaciones.
 
 3. **Capa de Fluido Interactiva (Superior):**
    Una simulación de fluidos en tiempo real que reacciona al movimiento del cursor del usuario mediante un efecto de mezcla (`mix-blend-mode`), aportando profundidad y dinamismo visual.

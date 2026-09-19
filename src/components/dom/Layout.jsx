@@ -84,10 +84,16 @@ function Layout({ children, layoutRef, mainRef, router }) {
             3,
           )
           .to(
-            'header',
+            'header, #logo-portal',
             {
               ease: 'power2.inOut',
               autoAlpha: 1,
+              // GSAP deja "will-change" puesto tras el tween; eso crea un contexto de
+              // apilamiento que rompe el mix-blend-mode de #logo-portal. Se limpia apenas
+              // termina para que el blend vuelva a ver el fondo real de la página.
+              onComplete: () => {
+                gsap.set('header, #logo-portal', { willChange: 'auto' });
+              },
             },
             3.3,
           )
@@ -139,7 +145,7 @@ function Layout({ children, layoutRef, mainRef, router }) {
           }
 
           tl.to(
-            'header',
+            'header, #logo-portal',
             {
               ease: 'power2.inOut',
               autoAlpha: 0,

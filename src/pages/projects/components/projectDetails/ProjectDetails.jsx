@@ -16,9 +16,11 @@ function ProjectDetails({ project }) {
             </div>
           ))}
         </div>
-        {project.liveLink ? (
+        {project.liveLink || project.extensionLink ? (
           <div className={styles.buttonContainer}>
-            <ButtonLink target href={project.liveLink} label="VISITAR SITIO WEB" />
+            {project.liveLink ? <ButtonLink target href={project.liveLink} label="VISITAR SITIO WEB" /> : null}
+            {project.extensionLink ? <ButtonLink target href={project.extensionLink} label="EXTENSIÓN DE CHROME" /> : null}
+            {project.repoLink ? <ButtonLink target href={project.repoLink} label="VER CÓDIGO" /> : null}
           </div>
         ) : null}
       </div>

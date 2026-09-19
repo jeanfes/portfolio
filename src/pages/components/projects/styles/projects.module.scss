@@ -167,6 +167,9 @@
         > img {
           border-radius: 0px !important;
           object-fit: cover;
+          @include mobile {
+            object-fit: contain;
+          }
         }
 
         .firstCard {

@@ -10,7 +10,6 @@
     var(--layout-margin);
   width: 100%;
   pointer-events: none;
-  scale: 1;
   .innerHeader {
     height: 3.1vw;
     @include mobile {
@@ -19,13 +18,12 @@
 
     position: relative;
     display: flex;
-    justify-content: space-between;
+    // El logo ya no vive aquí (ver .logoPortal): con un solo hijo,
+    // flex-end lo manda a la derecha, donde va CONTACTO/MENU.
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
 
-    > a {
-      pointer-events: all;
-    }
     .rightContainer {
       pointer-events: all;
 
@@ -33,5 +31,36 @@
       gap: var(--layout-columns-gap);
       align-items: center;
     }
+  }
+}
+
+// El logo se porta a document.body (ver Navbar) porque el propio .root de
+// arriba necesita position+z-index para flotar sobre el canvas/contenido —
+// y esa combinación crea su propio contexto de apilamiento en CSS, lo que
+// aísla cualquier mix-blend-mode de sus hijos del resto de la página (el
+// blend nunca "ve" el fondo real, solo el interior del header). Al moverlo
+// a un elemento hermano e independiente, el mix-blend-mode de ESTE wrapper
+// sí compite/mezcla contra el fondo real, e invierte el logo automáticamente
+// sobre fondos claros u oscuros sin necesitar JS que detecte el contraste.
+.logoPortal {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  padding: var(--layout-columns-gap) var(--layout-margin) 0px
+    var(--layout-margin);
+  height: 3.1vw;
+  @include mobile {
+    height: 6.5vw;
+  }
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+  opacity: 0;
+  mix-blend-mode: difference;
+  color: var(--white);
+
+  > a {
+    pointer-events: all;
   }
 }

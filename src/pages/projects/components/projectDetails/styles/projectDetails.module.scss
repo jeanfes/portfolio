@@ -43,7 +43,10 @@
       gap: var(--layout-columns-gap);
     }
     .buttonContainer {
-      width: max-content;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: calc(var(--layout-columns-gap) * 0.5);
     }
   }
 }

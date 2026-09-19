@@ -49,7 +49,7 @@ function Page() {
                 id: `projectRef-${index}`,
                 trigger: rootRef.current,
                 start: `top+=${windowSize.height * index}`,
-                end: () => `+=${(projectRefs.current.length - 2) * windowSize.height}`,
+                end: () => `+=${(projectRefs.current.length - 1) * windowSize.height}`,
                 scrub: true,
                 scroller: document?.querySelector('main'),
                 invalidateOnRefresh: true,

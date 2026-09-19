@@ -32,7 +32,7 @@ function Loader() {
             innerText: 1,
           },
           onComplete: () => {
-            gsap.set('header', {
+            gsap.set('header, #logo-portal', {
               autoAlpha: 0,
               ease: 'power2.inOut',
             });
@@ -120,11 +120,17 @@ function Loader() {
               duration: 0.5,
               height: '100%',
             });
-            gsap.to('header', {
+            gsap.to('header, #logo-portal', {
               delay: 2.3,
               duration: 0.5,
               ease: 'power2.inOut',
               autoAlpha: 1,
+              // GSAP deja "will-change" puesto tras el tween; eso crea un contexto de
+              // apilamiento que rompe el mix-blend-mode de #logo-portal. Se limpia apenas
+              // termina para que el blend vuelva a ver el fondo real de la página.
+              onComplete: () => {
+                gsap.set('header, #logo-portal', { willChange: 'auto' });
+              },
             });
             gsap.to('main', {
               ease: 'power2.inOut',
