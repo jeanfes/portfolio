@@ -21,10 +21,12 @@ def font(path, size):
     return ImageFont.truetype(path, size)
 
 
-# Only the left ~600px of the texture is visible on the card; the vertical
-# company name sits at NAME_X, so the left column must stay under LEFT_MAX_W.
-NAME_X = 490
-LEFT_MAX_W = 360
+# The card front only maps the left half of the texture (u 0..0.5, v 0..0.757),
+# i.e. x 0..510 and y 0..775. The vertical company name sits at NAME_X and the
+# left column must stay under LEFT_MAX_W so they never overlap.
+NAME_X = 410
+NAME_MAX_H = 520
+LEFT_MAX_W = 300
 
 
 def fit(d, text, path, size, max_w):
@@ -44,7 +46,7 @@ def draw_tag(name, bg, ink, company, role):
     d.text((110, 38), 'JEANFES', font=font(FONT_BOLD, 40), fill=ink)
 
     # Vertical company name along the center strip (text reads top -> bottom)
-    f = fit(d, company, FONT_BOLD, 96, 640)
+    f = fit(d, company, FONT_BOLD, 84, NAME_MAX_H)
     tw = int(d.textlength(company, font=f))
     layer = Image.new('RGBA', (tw + 20, f.size + 40), (0, 0, 0, 0))
     ImageDraw.Draw(layer).text((10, 10), company, font=f, fill=ink)
@@ -52,11 +54,11 @@ def draw_tag(name, bg, ink, company, role):
     im.paste(layer, (NAME_X - layer.width // 2, 60), layer)
 
     # Name / role block, left-middle
-    d.text((40, 470), 'Jean Escobar', font=fit(d, 'Jean Escobar', FONT_BOLD, 48, LEFT_MAX_W), fill=ink)
-    d.text((40, 530), role, font=fit(d, role, FONT_REG, 34, LEFT_MAX_W), fill=ink)
+    d.text((40, 440), 'Jean Escobar', font=fit(d, 'Jean Escobar', FONT_BOLD, 48, LEFT_MAX_W), fill=ink)
+    d.text((40, 500), role, font=fit(d, role, FONT_REG, 34, LEFT_MAX_W), fill=ink)
 
     # Big word bottom-left
-    d.text((30, 640), 'ESCOBAR', font=fit(d, 'ESCOBAR', FONT_BOLD, 88, LEFT_MAX_W), fill=ink)
+    d.text((30, 610), 'ESCOBAR', font=fit(d, 'ESCOBAR', FONT_BOLD, 88, LEFT_MAX_W), fill=ink)
 
     im.save(f'public/model/Tag{name}.png')
 
