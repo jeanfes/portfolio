@@ -9,11 +9,16 @@ from PIL import Image, ImageDraw, ImageFont
 FONT_BOLD = 'C:/Windows/Fonts/arialbd.ttf'
 FONT_REG = 'C:/Windows/Fonts/arial.ttf'
 
+# Roles/seniority match the CV exactly. Partikle appears twice with two
+# different roles (current Fullstack Ssr stint vs. the original Frontend Jr
+# stint), so it needs two separate textures (company2 and company5) even
+# though the company name and colors are the same.
 BADGES = {
-    'company1': dict(bg=(36, 44, 62), ink=(235, 238, 245), company='Freelance', role='Desarrollador Fullstack'),
-    'company2': dict(bg=(227, 24, 43), ink=(0, 0, 0), company='Partikle S.A.S', role='Desarrollador Fullstack'),
+    'company1': dict(bg=(36, 44, 62), ink=(235, 238, 245), company='Freelance', role='Desarrollador Fullstack Ssr'),
+    'company2': dict(bg=(227, 24, 43), ink=(0, 0, 0), company='Partikle S.A.S', role='Desarrollador Fullstack Ssr'),
     'company3': dict(bg=(0, 132, 61), ink=(255, 255, 255), company='Universidad Simón Bolívar', role='Ingeniero de Sistemas'),
     'company4': dict(bg=(245, 245, 245), ink=(0, 0, 0), company='Dinamicapps S.A.S', role='Desarrollador Fullstack Ssr'),
+    'company5': dict(bg=(227, 24, 43), ink=(0, 0, 0), company='Partikle S.A.S', role='Desarrollador Frontend Jr'),
 }
 
 
