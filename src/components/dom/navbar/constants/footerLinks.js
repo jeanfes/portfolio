@@ -1,5 +1,9 @@
 const footerLinks = [
   {
+    title: 'Descargar CV',
+    href: '/cv_jeanescobar.pdf',
+  },
+  {
     title: 'Github',
     href: 'https://github.com/jeanfes',
   },

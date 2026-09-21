@@ -28,5 +28,9 @@
       display: inline-block;
       padding-top: var(--layout-columns-gap);
     }
+    .buttonContainer {
+      margin-top: calc(var(--layout-columns-gap) * 2);
+      width: max-content;
+    }
   }
 }

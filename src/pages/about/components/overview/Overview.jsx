@@ -1,4 +1,5 @@
 import AppearTitle from '@src/components/animationComponents/appearTitle/Index';
+import ButtonLink from '@src/components/animationComponents/buttonLink/Index';
 import clsx from 'clsx';
 import styles from '@src/pages/about/components/overview/styles/overview.module.scss';
 import useIsMobile from '@src/hooks/useIsMobile';
@@ -48,6 +49,9 @@ function Overview() {
             <h6 className={clsx(styles.paddingTop, 'h6')}>Jean Escobar.</h6>
           </AppearTitle>
         )}
+        <div className={styles.buttonContainer}>
+          <ButtonLink href="/cv_jeanescobar.pdf" label="DESCARGAR CV" target />
+        </div>
       </div>
     </section>
   );
