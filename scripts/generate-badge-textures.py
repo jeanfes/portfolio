@@ -16,7 +16,7 @@ FONT_REG = 'C:/Windows/Fonts/arial.ttf'
 BADGES = {
     'company1': dict(bg=(36, 44, 62), ink=(235, 238, 245), company='Freelance', role='Desarrollador Fullstack Ssr'),
     'company2': dict(bg=(227, 24, 43), ink=(0, 0, 0), company='Partikle S.A.S', role='Desarrollador Fullstack Ssr'),
-    'company3': dict(bg=(0, 132, 61), ink=(255, 255, 255), company='Universidad Simón Bolívar', role='Ingeniero de Sistemas'),
+    'company3': dict(bg=(0, 132, 61), ink=(255, 255, 255), company='Universidad Simón Bolívar', role='Ingeniería de Sistemas'),
     'company4': dict(bg=(245, 245, 245), ink=(0, 0, 0), company='Dinamicapps S.A.S', role='Desarrollador Fullstack Ssr'),
     'company5': dict(bg=(227, 24, 43), ink=(0, 0, 0), company='Partikle S.A.S', role='Desarrollador Frontend Jr'),
 }
