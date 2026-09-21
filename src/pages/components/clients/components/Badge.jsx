@@ -30,6 +30,7 @@ export default function Badge({ name }) {
   const intersection = useIntersection(el, {
     threshold: 0.7,
   });
+  const visible = useIntersection(el, { threshold: 0 })?.isIntersecting ?? true;
 
   return (
     <View
@@ -47,7 +48,7 @@ export default function Badge({ name }) {
     >
       <PerspectiveCamera makeDefault position={[0, 0, 10]} fov={25} />
       <ambientLight intensity={Math.PI} />
-      <Physics interpolate gravity={[0, -40, 0]} timeStep={1 / 60}>
+      <Physics interpolate gravity={[0, -40, 0]} timeStep={1 / 60} paused={!visible}>
         <Band name={name} intersected={intersection?.isIntersecting} />
       </Physics>
       <ambientLight intensity={1.3} />

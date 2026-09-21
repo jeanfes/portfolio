@@ -31,10 +31,11 @@ function Lighting() {
 // Time for a sticker to be launched, fall and leave the viewport
 const FRUIT_LIFETIME_MS = 8000;
 
-function useFruitSpawner(viewport, textures, slicedTextures, isMobile) {
+function useFruitSpawner(viewport, textures, slicedTextures, isMobile, active) {
   const [fruits, setFruits] = useState([]);
 
   useEffect(() => {
+    if (!active) return undefined;
     const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
     const spawnInterval = setInterval(
@@ -65,12 +66,12 @@ function useFruitSpawner(viewport, textures, slicedTextures, isMobile) {
     return () => {
       clearInterval(spawnInterval);
     };
-  }, [isMobile, slicedTextures, textures, viewport.width]);
+  }, [active, isMobile, slicedTextures, textures, viewport.width]);
 
   return fruits.map((fruit) => fruit.element);
 }
 
-function FruitNinja() {
+function FruitNinja({ active = true }) {
   const { viewport } = useThree();
   const isMobile = useIsMobile();
   const textures = useTexture([
@@ -97,13 +98,13 @@ function FruitNinja() {
     '/logos/sliced/typescriptSliced.webp',
     '/logos/sliced/vscodeSliced.webp',
   ]);
-  const fruits = useFruitSpawner(viewport, textures, slicedTextures, isMobile);
+  const fruits = useFruitSpawner(viewport, textures, slicedTextures, isMobile, active);
 
   return (
     <>
       <PerspectiveCamera makeDefault position={[0, 0, 10]} />
       <Lighting />
-      <Physics interpolate timeStep={1 / 60} gravity={[0, -15, 0]} colliders={false}>
+      <Physics interpolate timeStep={1 / 60} gravity={[0, -15, 0]} colliders={false} paused={!active}>
         {fruits}
       </Physics>
     </>

@@ -1,13 +1,19 @@
 import { Canvas } from '@react-three/fiber';
 import dynamic from 'next/dynamic';
+import { useRef } from 'react';
+import { useIntersection } from 'react-use';
 
 const FruitNinja = dynamic(() => import('@src/components/dom/prefooter/FruitNinja'), { ssr: false });
 
 function Index() {
   const devicePixelRatio = typeof window !== 'undefined' ? Math.min(1, window.devicePixelRatio) : 1;
+  const el = useRef();
+  const visible = useIntersection(el, { threshold: 0 })?.isIntersecting ?? true;
 
   return (
     <Canvas
+      ref={el}
+      frameloop={visible ? 'always' : 'never'}
       dpr={[devicePixelRatio, 1]}
       gl={{
         antialias: true,
@@ -22,7 +28,7 @@ function Index() {
         width: '100%',
       }}
     >
-      <FruitNinja />
+      <FruitNinja active={visible} />
     </Canvas>
   );
 }
