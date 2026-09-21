@@ -1,8 +1,9 @@
 import NextHead from 'next/head';
 import { NextSeo } from 'next-seo';
 import PropTypes from 'prop-types';
+import { useRouter } from 'next/router';
 
-const SITE_URL = 'https://jeanfes.github.io/Portfolio';
+const SITE_URL = 'https://jeanescobar.vercel.app';
 const OG_IMAGE = `${SITE_URL}/og.png`;
 
 const getSchema = () => ({
@@ -21,6 +22,9 @@ const getSchema = () => ({
 });
 
 function CustomHead({ title = '', description, keywords }) {
+  const { asPath } = useRouter();
+  const pageUrl = `${SITE_URL}${asPath.split('?')[0].split('#')[0]}`.replace(/\/$/, '');
+
   return (
     <>
       <NextHead>
@@ -36,7 +40,7 @@ function CustomHead({ title = '', description, keywords }) {
         <meta name="geo.region" content="US" />
 
         {/* Canonical and Title */}
-        <link rel="canonical" href={SITE_URL} />
+        <link rel="canonical" href={pageUrl} />
         <title>{title}</title>
 
         {/* OpenGraph Meta Tags */}
@@ -44,7 +48,7 @@ function CustomHead({ title = '', description, keywords }) {
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:url" content={SITE_URL} />
+        <meta property="og:url" content={pageUrl} />
 
         {/* Twitter Cards */}
         <meta name="twitter:card" content="summary_large_image" />
