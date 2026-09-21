@@ -92,7 +92,7 @@ const containt = [
       },
       {
         title: 'Optimización de Contenido',
-        desc: 'Mejorar la calidad y relevancia del contenido para alineararlo con las mejores prácticas de SEO',
+        desc: 'Mejorar la calidad y relevancia del contenido para alinearlo con las mejores prácticas de SEO',
       },
       {
         title: 'Análisis de Competencia',
